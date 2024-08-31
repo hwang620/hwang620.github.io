@@ -32,6 +32,5 @@ Welcome, my name is **<font face="Georgia">Han Wang</font>**, currently working 
 
    
    
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QIQtE1-Gn7clqCtOq-NDqiT9JvnvdyMSQr0qmKmvf2A&cl=ffffff&w=a"></script>
 
-   
+<div align=center width=20% height=20%><script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QIQtE1-Gn7clqCtOq-NDqiT9JvnvdyMSQr0qmKmvf2A&cl=ffffff&w=a"></script></div>
