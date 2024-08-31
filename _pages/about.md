@@ -20,14 +20,16 @@ Welcome, my name is Han Wang, currently working towards my Ph.D degree in the Sc
 
 ## Publications
 
-- [ACM MobiCom '24] **<u>Han Wang</u>**, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang and Li Lu*
+- [ACM MobiCom '24] **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **20.8%**) [PDF]("\files\han_sisyphus_camera_ready.pdf")
   
-   **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **20.8%**) [PDF]("\files\han_sisyphus_camera_ready.pdf")
+   **<u>Han Wang</u>**, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang and Li Lu*
 
-- [IEEE TMC '23]**MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization**
   
-   Xinyu Tong, **<u>Han Wang</u>**, Xiulong Liu and Wenyu Qu (***CCF-A***) 
+  
+- [IEEE TMC '23] **MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization** (***CCF-A***) 
+  
+   Xinyu Tong, **<u>Han Wang</u>**, Xiulong Liu and Wenyu Qu 
 
-   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=QIQtE1-Gn7clqCtOq-NDqiT9JvnvdyMSQr0qmKmvf2A"></script>
+   <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QIQtE1-Gn7clqCtOq-NDqiT9JvnvdyMSQr0qmKmvf2A&cl=ffffff&w=a"></script>
    
    
