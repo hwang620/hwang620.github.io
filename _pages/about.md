@@ -32,6 +32,18 @@ Welcome, my name is **<font face="Georgia">Han Wang</font>**, currently working 
 
 
 
+## <font face="Century Gothic" color="283687">Academic Service</font>
+
+- **<font face="Georgia">Reviewers</font>**
+  - [2024] IEEE Transactions on Mobile Computing (TMC) 
+  - [2021] 15th International Conference on Network and System Security (NSS‘21)
+
+
+
+## <font face="Century Gothic" color="283687">Honors & Awards</font>
+
+- 2022-2023 Merit Student of UESTC
+
 ----
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=tt&d=tf6trRht7T5GWabkmifch2uaHHA47Ixj-cwebHXvmBk&co=283687&ct=ffffff&cmo=fa0303&cmn=20ba4c'></script>
