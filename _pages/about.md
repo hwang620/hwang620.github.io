@@ -26,7 +26,7 @@ Welcome, my name is **<font face="Georgia">Han Wang</font>**, currently working 
 
   
 
-- **<font color="CD2027" face="Georgia">[IEEE TMC '23]</font>** **MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization** (***CCF-A***) 
+- **<font color="CD2027" face="Georgia">[IEEE TMC '23]</font>** **MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization** (***CCF-A***) [LINK](https://ieeexplore.ieee.org/abstract/document/9525195)
   
    Xinyu Tong, **<u>Han Wang</u>**, Xiulong Liu and Wenyu Qu 
 
