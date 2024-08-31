@@ -7,12 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-Welcome, my name is **<font face="Century Gothic">Han Wang</font>**, currently working towards my Ph.D degree in the School of Computer Science and Engineering at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) advised by Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my bachelor's degree in College of Intelligence and Computing from [Tianjin University](https://www.tju.edu.cn/english/index.htm) in 2022, and advised by Assoc.Res. [Xinyu Tong](http://cic.tju.edu.cn/faculty/tongxinyu/index.html). I am deeply passionate about research on *low-power, low-cost wireless systems*.
+Welcome, my name is **Han Wang**, currently working towards my Ph.D degree in the School of Computer Science and Engineering at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) advised by Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my bachelor's degree in College of Intelligence and Computing from [Tianjin University](https://www.tju.edu.cn/english/index.htm) in 2022, and advised by Assoc.Res. [Xinyu Tong](http://cic.tju.edu.cn/faculty/tongxinyu/index.html). I am deeply passionate about research on *low-power, low-cost wireless systems*. 
 
 ## <font face="Century Gothic" color="283687">Research Interests</font>
 
 - **<font face="Century Gothic">Wireless:</font>** low-power communication and computation systems, LoRa
-- **<font face="Century Gothic">Embedded systems:</font>** drone detection and identification, ubiquitous computing
+- **<font face="Century Gothic">Embedded systems:</font>** drone detection and identification, ubiquitous computing 
 
 ## <font face="Century Gothic" color="283687">News</font>
 
