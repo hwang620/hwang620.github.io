@@ -25,11 +25,13 @@ Welcome, my name is Han Wang, currently working towards my Ph.D degree in the Sc
    **<u>Han Wang</u>**, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang and Li Lu*
 
   
-  
+
 - [IEEE TMC '23] **MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization** (***CCF-A***) 
   
    Xinyu Tong, **<u>Han Wang</u>**, Xiulong Liu and Wenyu Qu 
 
-   <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QIQtE1-Gn7clqCtOq-NDqiT9JvnvdyMSQr0qmKmvf2A&cl=ffffff&w=a"></script>
    
+   
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QIQtE1-Gn7clqCtOq-NDqiT9JvnvdyMSQr0qmKmvf2A&cl=ffffff&w=a"></script>
+
    
