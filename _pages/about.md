@@ -7,19 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-Welcome, my name is **<font face="Georgia">Han Wang</font>**, currently working towards my Ph.D degree in the School of Computer Science and Engineering at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) advised by Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my bachelor's degree in College of Intelligence and Computing from [Tianjin University](https://www.tju.edu.cn/english/index.htm) in 2022, and advised by Assoc.Res. [Xinyu Tong](http://cic.tju.edu.cn/faculty/tongxinyu/index.html). I am deeply passionate about research on *low-power, low-cost wireless systems*. 
+Welcome, my name is **<font face="Georgia">Han Wang</font>**, currently working towards my Ph.D degree in the School of Computer Science and Engineering at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/)<img src="\images\uestc_logo.png" style="width: 1.1em;"> advised by Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my bachelor's degree in College of Intelligence and Computing from [Tianjin University](https://www.tju.edu.cn/english/index.htm)<img src="\images\tju_badge_white.png" style="width: 1.1em;"> in 2022, and advised by Assoc.Res. [Xinyu Tong](http://cic.tju.edu.cn/faculty/tongxinyu/index.html). I am deeply passionate about research on *low-power, low-cost wireless systems*. 
 
-## <font face="Century Gothic" color="283687">:mag:Research Interests</font>
+
+
+## 🔎 <font face="Century Gothic" color="283687">Research Interests</font>
 
 - **<font face="Georgia">Wireless:</font>** low-power communication and computation systems, LoRa
 - **<font face="Georgia">Embedded systems:</font>** drone detection and identification, ubiquitous computing 
 
-## <font face="Century Gothic" color="283687">:mega: News</font>
+## 📣 <font face="Century Gothic" color="283687">News</font>
 
 - **<font color="CD2027" face="Georgia">[Aug. 2024]</font>** Our paper about low-power LoRa receiver is accepted to **MobiCom '24**.
 
 
-## <font face="Century Gothic" color="283687">:mahjong: Publications</font>
+## 🀄 <font face="Century Gothic" color="283687">Publications</font>
 
 
 - **<font color="CD2027" face="Georgia">[ACM MobiCom '24]</font>** **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **20.8%**) [PDF](\files\han_sisyphus_camera_ready.pdf)
@@ -34,7 +36,7 @@ Welcome, my name is **<font face="Georgia">Han Wang</font>**, currently working 
 
 
 
-## <font face="Century Gothic" color="283687">:memo: Academic Service</font>
+## 📝 <font face="Century Gothic" color="283687">Academic Service</font>
 
 - **<font face="Georgia">Reviewers</font>**
   - [2024] IEEE Transactions on Mobile Computing (TMC) 
@@ -42,7 +44,7 @@ Welcome, my name is **<font face="Georgia">Han Wang</font>**, currently working 
 
 
 
-## <font face="Century Gothic" color="283687">:trophy: Honors & Awards</font>
+## 🏆 <font face="Century Gothic" color="283687">Honors & Awards</font>
 
 - 2022-2023 Merit Student of UESTC
 
