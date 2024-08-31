@@ -7,18 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-Welcome, my name is Han Wang, currently working towards my Ph.D degree in the School of Computer Science and Engineering at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) advised by Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my bachelor's degree in College of Intelligence and Computing from [Tianjin University](https://www.tju.edu.cn/english/index.htm) in 2022, and advised by Assoc.Res. [Xinyu Tong](http://cic.tju.edu.cn/faculty/tongxinyu/index.html). I am deeply passionate about research on *low-power, low-cost wireless systems*.
+Welcome, my name is <font face="Century Gothic">**Han Wang**</font>, currently working towards my Ph.D degree in the School of Computer Science and Engineering at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) advised by Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my bachelor's degree in College of Intelligence and Computing from [Tianjin University](https://www.tju.edu.cn/english/index.htm) in 2022, and advised by Assoc.Res. [Xinyu Tong](http://cic.tju.edu.cn/faculty/tongxinyu/index.html). I am deeply passionate about research on *low-power, low-cost wireless systems*.
 
-## Research Interests
+## <font face="Century Gothic">Research Interests</font>
 
-- **Wireless:** low-power communication and computation systems, LoRa
-- **Embedded systems**: drone detection and identification, ubiquitous computing
+- <font face="Century Gothic">**Wireless:** </font>low-power communication and computation systems, LoRa
+- <font face="Century Gothic">**Embedded systems**:</font> drone detection and identification, ubiquitous computing
 
-## News
+## <font face="Century Gothic">News</font>
 
 - **[Aug. 2024]** Our paper about low-power LoRa receiver is accepted to **MobiCom '24**.
 
-## Publications
+## <font face="Century Gothic">Publications</font>
 
 - [ACM MobiCom '24] **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **20.8%**) [PDF](\files\han_sisyphus_camera_ready.pdf)
   
