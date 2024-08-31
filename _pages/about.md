@@ -20,7 +20,7 @@ Welcome, my name is Han Wang, currently working towards my Ph.D degree in the Sc
 
 ## Publications
 
-- [ACM MobiCom '24] **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **20.8%**) [PDF]("\files\han_sisyphus_camera_ready.pdf")
+- [ACM MobiCom '24] **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **20.8%**) [PDF](\files\han_sisyphus_camera_ready.pdf)
   
    **<u>Han Wang</u>**, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang and Li Lu*
 
