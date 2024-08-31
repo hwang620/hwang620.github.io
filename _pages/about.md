@@ -25,7 +25,11 @@ Welcome, my name is Han Wang, currently working towards my Ph.D degree in the Sc
    *The 30th Annual International Conference on Mobile Computing and Networking*  (**MobiCom 2024, CCF-A, acceptance rate: 20.8%**)
 
 - **MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization**
+   Xinyu Tong, **Wang Han**, Xiulong Liu and Wenyu Qu
+   *IEEE Transactions on Mobile Computing* (**TMC, CCF-A**)
 
-  Xinyu Tong, **Wang Han**, Xiulong Liu and Wenyu Qu
-
-  *IEEE Transactions on Mobile Computing* (**TMC, CCF-A**)
+   
+   
+   
+   
+   
