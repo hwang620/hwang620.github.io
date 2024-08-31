@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "About Me"
+title: "Han Wang (王晗)"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Welcome, my name is Han Wang, currently working towards my Ph.D degree in the School of Computer Science and Engineering at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) advised by Professor [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my bachelor's degree in College of Intelligence and Computing from [Tianjin University](https://www.tju.edu.cn/english/index.htm) in 2022. I am deeply passionate about research on *low-power, low-cost wireless systems*.
+Welcome, my name is Han Wang, currently working towards my Ph.D degree in the School of Computer Science and Engineering at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) advised by Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my bachelor's degree in College of Intelligence and Computing from [Tianjin University](https://www.tju.edu.cn/english/index.htm) in 2022, and advised by Assoc.Res. [Xinyu Tong](http://cic.tju.edu.cn/faculty/tongxinyu/index.html). I am deeply passionate about research on *low-power, low-cost wireless systems*.
 
 ## Research Interests
 
