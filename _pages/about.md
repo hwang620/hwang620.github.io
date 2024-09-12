@@ -13,8 +13,8 @@ Welcome, my name is **<font face="Georgia">Han Wang</font>**, currently working 
 
 ## 🔎 <font face="Century Gothic" color="283687">Research Interests</font>
 
-- **<font face="Georgia">Wireless:</font>** low-power communication and computation systems, LoRa
-- **<font face="Georgia">Embedded systems:</font>** drone detection and identification, ubiquitous computing 
+- **<font face="Georgia">Wireless:</font>** low-power communication and computation systems, LPWAN, LoRa
+- **<font face="Georgia">Embedded systems:</font>** anti-drone systems, ubiquitous computing 
 
 ## 📣 <font face="Century Gothic" color="283687">News</font>
 
@@ -24,7 +24,7 @@ Welcome, my name is **<font face="Georgia">Han Wang</font>**, currently working 
 ## 🀄 <font face="Century Gothic" color="283687">Publications</font>
 
 
-- **<font color="CD2027" face="Georgia">[ACM MobiCom '24]</font>** **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **20.8%**) [PDF](\files\Sisyphus_mobicom24.pdf)
+- **<font color="CD2027" face="Georgia">[ACM MobiCom '24]</font>** **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **19.1%**) [PDF](\files\Sisyphus_mobicom24.pdf)
   
    **<u>Han Wang</u>**, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang and Li Lu*
 
