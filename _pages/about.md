@@ -30,13 +30,15 @@ Welcome, my name is **<font face="Georgia">Han Wang</font>**, currently working 
 ## 🀄 <font face="Century Gothic" color="283687">Publications</font>
 
 
-- **<font color="CD2027" face="Georgia">[ACM MobiCom '24]</font>** **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **19.1%**) [PDF](\files\Sisyphus_mobicom24.pdf)
-**<u>Han Wang</u>**, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang and Li Lu*.
+- **<font color="CD2027" face="Georgia">[ACM MobiCom '24]</font>** **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **19.1%**) [PDF](\files\Sisyphus_mobicom24.pdf) <br>
+
+  **<u>Han Wang</u>**, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang and Li Lu*.
 
 
 
-- **<font color="CD2027" face="Georgia">[ACM SenSys '24]</font>** **Processor-Sharing Internet of Things Architecture for Large-scale Deployment** (***CCF-B, Tsinghua-A***, acceptance rate: **18.5%**) 
-Qianhe Meng, **<u>Han Wang</u>**, Chong Zhang, Yihang Song,  Songfan Li, Li Lu* and Hongzi Zhu.
+- **<font color="CD2027" face="Georgia">[ACM SenSys '24]</font>** **Processor-Sharing Internet of Things Architecture for Large-scale Deployment** (***CCF-B, Tsinghua-A***, acceptance rate: **18.5%**) <br>
+
+  Qianhe Meng, **<u>Han Wang</u>**, Chong Zhang, Yihang Song,  Songfan Li, Li Lu* and Hongzi Zhu.
 
   
 
