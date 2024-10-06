@@ -36,7 +36,7 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 
   <br>
 
-- **<font color="CD2027" face="Georgia">[ACM SenSys '24]</font>** **Processor-Sharing Internet of Things Architecture for Large-scale Deployment** (***CCF-B, Tsinghua-A***, acceptance rate: **18.5%**) <br>
+- **<font color="CD2027" face="Georgia">[ACM SenSys '24]</font>** **Processor-Sharing Internet of Things Architecture for Large-scale Deployment** (***CCF-B, Tsinghua-A***, acceptance rate: **18.5%**) [PDF](\files\RFBUS_sensys24.pdf) <br>
 
   Qianhe Meng, **<u>Han Wang</u>**, Chong Zhang, Yihang Song,  Songfan Li, Li Lu* and Hongzi Zhu.
 
