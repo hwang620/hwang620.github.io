@@ -32,19 +32,25 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 
 - **<font color="CD2027" face="Georgia">[ACM MobiCom '24]</font>** **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **19.1%**) [PDF](\files\Sisyphus_mobicom24.pdf) <br>
 
-  **<u>Han Wang</u>**, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang and Li Lu*.
+  **<u>Han Wang</u>**, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, and Li Lu*.
 
   <br>
 
 - **<font color="CD2027" face="Georgia">[ACM SenSys '24]</font>** **Processor-Sharing Internet of Things Architecture for Large-scale Deployment** (***CCF-B, Tsinghua-A***, acceptance rate: **18.5%**) [PDF](\files\RFBUS_sensys24.pdf) <br>
 
-  Qianhe Meng, **<u>Han Wang</u>**, Chong Zhang, Yihang Song,  Songfan Li, Li Lu* and Hongzi Zhu.
+  Qianhe Meng, **<u>Han Wang</u>**, Chong Zhang, Yihang Song,  Songfan Li, Li Lu*, and Hongzi Zhu.
 
   <br>
-
-- **<font color="CD2027" face="Georgia">[IEEE TMC '23]</font>** **MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization** (***CCF-A***) [LINK](https://ieeexplore.ieee.org/abstract/document/9525195)
   
-   Xinyu Tong, **<u>Han Wang</u>**, Xiulong Liu and Wenyu Qu 
+- **<font color="CD2027" face="Georgia">[JCIN '24]</font>** **Energy-Efficient Dynamic Configurable Datapath Architecture for IoT Devices** [Available here](https://www.infocomm-journal.com/jcin/EN/10.23919/JCIN.2024.10272386)
+
+   Ruizhe Zhang, Junhui Liu, **<u>Han Wang</u>**, and Li Lu*
+  
+  <br>
+  
+- **<font color="CD2027" face="Georgia">[IEEE TMC '23]</font>** **MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization** (***CCF-A***) [Available here](https://ieeexplore.ieee.org/abstract/document/9525195)
+  
+   Xinyu Tong, **<u>Han Wang</u>**, Xiulong Liu, and Wenyu Qu 
 
 
 
