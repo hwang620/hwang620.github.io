@@ -30,7 +30,7 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 ## 🀄 <font face="Century Gothic" color="283687">Publications</font>
 
 
-- **<font color="CD2027" face="Georgia">[ACM MobiCom '24]</font>** **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **19.1%**) [PDF](\files\Sisyphus_mobicom24.pdf) <br>
+- **<font color="CD2027" face="Georgia">[ACM MobiCom '24]</font>** **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **19.1%**) [PDF](\files\Sisyphus_mobicom24.pdf) |[Slides](\files\Sisyphus_slides.pdf)<br>
 
   **<u>Han Wang</u>**, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, and Li Lu*.
 
