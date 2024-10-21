@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "UESTC"
+title                    : "Han's homepage @UESTC"
 title_separator          : "|"
-name                     : &name "Han Wang | 王晗"
+name                     : &name "Han Wang"
 description              : &description "First-year Ph.D student @ SCSE, UESTC"
 url                      : https://hwang620.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
