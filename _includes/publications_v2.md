@@ -4,12 +4,12 @@
 
 <div class="publications_conference">
 <ol class="bibliography_conference">
-
-<h3 id="publications" style="margin: 2px 0px 10px;">Conference Papers</h3>
+<h4 style="margin:0 10px 0;">Conference Papers</h4>
 
 {% for link in site.data.publications_conference.main %}
 
 <li>
+
 <div class="pub-row_conference">
 <!--  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
@@ -68,8 +68,7 @@
 
 <div class="publications_journal">
 <ol class="bibliography_journal">
-
-<h3 id="publications" style="margin: -20px 0px 10px;">Journal Papers</h3>
+<h4 style="margin:0 10px 0;">Journal Papers</h4>
 
 {% for link in site.data.publications_journal.main %}
 
