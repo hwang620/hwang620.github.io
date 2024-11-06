@@ -22,6 +22,7 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 ## 🔥 <font face="Century Gothic" color="283687">News</font>
 
 
+- **<font color="CD2027" face="Georgia">[Nov. 2024]</font>** Congratulations! Our paper ***'RFBus'*** is honored with the <font color="CD2027">***best paper award***</font> of SenSys '24 !
 - **<font color="CD2027" face="Georgia">[Sep. 2024]</font>** Our paper ***'RFBus'*** about low-cost IoT system architecture is accepted to **SenSys '24**.
 - **<font color="CD2027" face="Georgia">[Aug. 2024]</font>** Our paper ***'Sisyphus'*** about low-power LoRa receiver is accepted to **MobiCom '24**.
 
@@ -30,13 +31,13 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 ## 🀄 <font face="Century Gothic" color="283687">Publications</font>
 
 
-- **<font color="CD2027" face="Georgia">[ACM MobiCom '24]</font>** **Sisyphus: Redefining Low Power for LoRa Receiver** (***CCF-A***, acceptance rate: **19.1%**) [PDF](\files\Sisyphus_mobicom24.pdf) **·** [Slides](\files\Sisyphus_slides.pdf) <br>
+- **<font color="CD2027" face="Georgia">[ACM MobiCom '24]</font>** **Sisyphus: Redefining Low Power for LoRa Receiver** (acceptance rate: **19.1%**) [PDF](\files\Sisyphus_mobicom24.pdf) **·** [Slides](\files\Sisyphus_slides.pdf) <br>
 
   **<u>Han Wang</u>**, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, and Li Lu*.
 
   <br>
 
-- **<font color="CD2027" face="Georgia">[ACM SenSys '24]</font>** **Processor-Sharing Internet of Things Architecture for Large-scale Deployment** (***CCF-B, Tsinghua-A***, acceptance rate: **18.5%**) [PDF](\files\RFBUS_sensys24.pdf) <br>
+- **<font color="CD2027" face="Georgia">[ACM SenSys '24] [Best paper award]</font>🎖** **Processor-Sharing Internet of Things Architecture for Large-scale Deployment** (acceptance rate: **18.5%**) [PDF](\files\RFBUS_sensys24.pdf) <br>
 
   Qianhe Meng, **<u>Han Wang</u>**, Chong Zhang, Yihang Song,  Songfan Li, Li Lu*, and Hongzi Zhu.
 
@@ -48,7 +49,7 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
   
   <br>
   
-- **<font color="CD2027" face="Georgia">[IEEE TMC '23]</font>** **MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization** (***CCF-A***) [Available here](https://ieeexplore.ieee.org/abstract/document/9525195)
+- **<font color="CD2027" face="Georgia">[IEEE TMC '23]</font>** **MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization**  [Available here](https://ieeexplore.ieee.org/abstract/document/9525195)
   
    Xinyu Tong, **<u>Han Wang</u>**, Xiulong Liu, and Wenyu Qu 
 
