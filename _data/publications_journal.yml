@@ -1,0 +1,22 @@
+main:
+
+  - title: "MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization"
+    authors: Xinyu Tong, <strong>Han Wang</strong>, Xiulong Liu, and Wenyu Qu 
+    conference_short: TMC '23
+    conference: IEEE Transactions on Mobile Computing (TMC), 2023
+#    pdf: https://mqhyes.github.io/
+#    code: https://github.com/MrGiovanni/ContinualLearning
+#    bibtex: https://bib.yliu.me/MICCAI23.txt
+#    image: ./assets/img/teaser_example_2.png
+    notes: CCF-A
+
+  - title: "Energy-Efficient Dynamic Configurable Datapath Architecture for IoT Devices"
+    authors: Ruizhe Zhang, Junhui Liu, <strong>Han Wang</strong>, and Li Lu
+    conference_short: JCIN '24
+    conference: Journal of Communications and Information Networks, 2024
+#    pdf: https://mqhyes.github.io/
+#    code: https://github.com/MrGiovanni/ContinualLearning
+#    bibtex: https://bib.yliu.me/MICCAI23.txt
+#    image: ./assets/img/teaser_example_2.png
+    # notes: 
+    
