@@ -2,18 +2,18 @@ main:
 
   - title: "Sisyphus: Redefining Low Power for LoRa Receiver"
     authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, and Li Lu
-    conference_short: MobiCom'24
-    conference: The 30th ACM International Conference on Mobile Computing and Networking
+    conference_short: MobiCom '24
+    conference: The 30th Annual International Conference on Mobile Computing and Networking
     pdf: ./assets/files/Sisyphus_mobicom24.pdf
     slides: ./assets/files/Sisyphus_slides.pdf
-#    code: https://github.com/MrGiovanni/ContinualLearning
+    video: https://www.youtube.com/watch?v=v3cw942yGKw
 #    bibtex: https://bib.yliu.me/MICCAI23.txt
     # image: ./assets/img/teaser_sisyphus.png
     notes: CCF-A
 
   - title: "Processor-Sharing Internet of Things Architecture for Large-Scale Deployment"
     authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu
-    conference_short: SenSys'24
+    conference_short: SenSys '24
     conference: The 22nd ACM Conference on Embedded Networked Sensor Systems
     pdf: ./assets/files/RFBUS_sensys24.pdf
     slides: ./assets/files/RFBUS_slides.pdf
