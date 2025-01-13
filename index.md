@@ -12,7 +12,7 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 
 ## News
 
-- **<font color="3A5FCD" face="Georgia">[Nov. 2024]</font>** 🎉Congratulations! Our paper ***'RFBus'*** won the [**<font color="CD2027">BEST PAPER AWARD</font>**](https://sensys.acm.org/2024/award/) of SenSys '24 ! (1 out of all 313 submissions)
+- **<font color="3A5FCD" face="Georgia">[Nov. 2024]</font>** 🎉Congratulations! Our paper ***'RFBus'*** won the [BEST PAPER AWARD](https://sensys.acm.org/2024/award/) of SenSys '24 ! (1 out of all 313 submissions)
 - **<font color="3A5FCD" face="Georgia">[Sep. 2024]</font>** Our paper ***'RFBus'*** about low-cost IoT system architecture is accepted to **SenSys '24**.
 - **<font color="3A5FCD" face="Georgia">[Aug. 2024]</font>** Our paper ***'Sisyphus'*** about low-power LoRa receiver is accepted to **MobiCom '24**.
 
