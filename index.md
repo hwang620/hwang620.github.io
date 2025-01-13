@@ -19,7 +19,7 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 {% include_relative _includes/publications_v2.md %}
 
 {% include_relative _includes/services.md %} 
-
+<br>
 {% include_relative _includes/honors.md %} 
 
 
