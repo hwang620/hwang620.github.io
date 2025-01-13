@@ -20,6 +20,8 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 
 {% include_relative _includes/services.md %} 
 
+{% include_relative _includes/honors.md %} 
+
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=tt&d=tf6trRht7T5GWabkmifch2uaHHA47Ixj-cwebHXvmBk&co=283687&ct=ffffff&cmo=fa0303&cmn=20ba4c'></script>
