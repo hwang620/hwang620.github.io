@@ -22,6 +22,17 @@ main:
 #    image: ./assets/img/teaser_example_2.png
     notes: CCF-B, Best Paper Award!
 
+  - title: "LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems"
+    authors: Chong Zhang, <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, and Li Lu
+    conference_short: MobiSys '25
+    conference: The 23rd ACM International Conference on Mobile Systems, Applications, and Services
+    # pdf: ./assets/files/RFBUS_sensys24.pdf
+    # slides: ./assets/files/RFBUS_slides.pdf
+#    code: https://github.com/MrGiovanni/ContinualLearning
+#    bibtex: https://bib.yliu.me/MICCAI23.txt
+#    image: ./assets/img/teaser_example_2.png
+    notes: CCF-B
+
   - title: "Cupid: Empowering Reliable Collaboration for Intermittent Computing Nodes"
     authors: Yize Zhao, Chong Zhang, Zetao Gao, <strong>Han Wang</strong>, Qianhe Meng, and Li Lu
     conference_short: ICC '25
