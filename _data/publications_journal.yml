@@ -8,13 +8,13 @@ main:
 #    code: https://github.com/MrGiovanni/ContinualLearning
 #    bibtex: https://bib.yliu.me/MICCAI23.txt
 #    image: ./assets/img/teaser_example_2.png
-    notes: CCF-A
+    # notes: CCF-A
 
   - title: "Energy-Efficient Dynamic Configurable Datapath Architecture for IoT Devices"
     authors: Ruizhe Zhang, Junhui Liu, <strong>Han Wang</strong>, and Li Lu
     conference_short: JCIN '24
     conference: Journal of Communications and Information Networks, 2024
-    notes: Invited paper
+    # notes: Invited paper
 #    pdf: https://mqhyes.github.io/
 #    code: https://github.com/MrGiovanni/ContinualLearning
 #    bibtex: https://bib.yliu.me/MICCAI23.txt

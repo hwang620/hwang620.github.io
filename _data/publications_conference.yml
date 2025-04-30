@@ -9,7 +9,7 @@ main:
     video: https://www.youtube.com/watch?v=v3cw942yGKw
 #    bibtex: https://bib.yliu.me/MICCAI23.txt
     # image: ./assets/img/teaser_sisyphus.png
-    notes: CCF-A
+    # notes: CCF-A
 
   - title: "Processor-Sharing Internet of Things Architecture for Large-Scale Deployment"
     authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu
@@ -20,7 +20,7 @@ main:
 #    code: https://github.com/MrGiovanni/ContinualLearning
 #    bibtex: https://bib.yliu.me/MICCAI23.txt
 #    image: ./assets/img/teaser_example_2.png
-    notes: CCF-B, Best Paper Award!
+    notes: Best Paper Award!
 
   - title: "LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems"
     authors: Chong Zhang, <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, and Li Lu
@@ -31,7 +31,7 @@ main:
 #    code: https://github.com/MrGiovanni/ContinualLearning
 #    bibtex: https://bib.yliu.me/MICCAI23.txt
 #    image: ./assets/img/teaser_example_2.png
-    notes: CCF-B
+    # notes: CCF-B
 
   - title: "Cupid: Empowering Reliable Collaboration for Intermittent Computing Nodes"
     authors: Yize Zhao, Chong Zhang, Zetao Gao, <strong>Han Wang</strong>, Qianhe Meng, and Li Lu
@@ -42,7 +42,7 @@ main:
     # video: https://www.youtube.com/watch?v=v3cw942yGKw
 #    bibtex: https://bib.yliu.me/MICCAI23.txt
     # image: ./assets/img/teaser_sisyphus.png
-    notes: CCF-C
+    # notes: CCF-C
 
 
 
