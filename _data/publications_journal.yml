@@ -1,5 +1,10 @@
 main:
 
+  - title: "Embedding Chips Over the Air: Rethink IoT Architecture for Ubiquitous Sensing"
+    authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu 
+    conference_short: TMC '25
+    conference: IEEE Transactions on Mobile Computing (TMC), 2025
+
   - title: "MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization"
     authors: Xinyu Tong, <strong>Han Wang</strong>, Xiulong Liu, and Wenyu Qu 
     conference_short: TMC '23
