@@ -7,8 +7,8 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 
 ## Research Interests
 
-- **<font face="Georgia">Wireless:</font>** low-power communication and computation systems, LPWAN, LoRa
-- **<font face="Georgia">Embedded systems:</font>** anti-drone systems, ubiquitous computing 
+- **<font face="Georgia">Wireless:</font>** low-power communication systems, sensing
+- **<font face="Georgia">Embedded systems:</font>** energy-efficient computing systems, ubiquitous computing
 
 ## News
 
