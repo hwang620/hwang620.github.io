@@ -3,7 +3,8 @@ main:
     authors: Chong Zhang, <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, and Li Lu
     conference_short: MobiSys '25
     conference: The 23rd ACM International Conference on Mobile Systems, Applications, and Services
-  
+    pdf: ./assets/files/LEGO+_mobisys25.pdf
+
   - title: "Sisyphus: Redefining Low Power for LoRa Receiver"
     authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, and Li Lu
     conference_short: MobiCom '24
