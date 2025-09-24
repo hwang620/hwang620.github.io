@@ -1,6 +1,6 @@
 main:
     - title: "μMan: Towards Device-Agnostic Power Management for Battery-free IoT"
-      authors: Chong Zhang, Han Wang, Qianhe Meng, Yize Zhao, Shengyu Li, Songfan Li, Zetao Gao, Li Lu, and Hongzi Zhu
+      authors: Chong Zhang,  <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Shengyu Li, Songfan Li, Zetao Gao, Li Lu, and Hongzi Zhu
       conference_short: SenSys '26
       conference: ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems
   
