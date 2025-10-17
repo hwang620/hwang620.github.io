@@ -12,8 +12,8 @@ main:
     
   - title: "MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization"
     authors: Xinyu Tong, <strong>Han Wang</strong>, Xiulong Liu, and Wenyu Qu 
-    conference_short: TMC '23
-    conference: IEEE Transactions on Mobile Computing (TMC), 2023
+    conference_short: TMC '21
+    conference: IEEE Transactions on Mobile Computing (TMC), 2021
 #    pdf: https://mqhyes.github.io/
 #    code: https://github.com/MrGiovanni/ContinualLearning
 #    bibtex: https://bib.yliu.me/MICCAI23.txt
