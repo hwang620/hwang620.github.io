@@ -12,6 +12,7 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 
 ## News
 
+- **<font color="3A5FCD" face="Georgia">[Oct. 2025]</font>** Our paper ***'μMan'*** about device-agnostic energy management for battery-free IoT is accepted to **SenSys '26**.
 - **<font color="3A5FCD" face="Georgia">[Apr. 2025]</font>** Our paper ***'LEGO+'*** about thorough redundancy removal for IoT sensing systems is accepted to **MobiSys '25**.
 - **<font color="3A5FCD" face="Georgia">[Jan. 2025]</font>** Our paper ***'Cubid'*** about reliable collaboration among battery-free nodes is accepted to **ICC '25**.
 - **<font color="3A5FCD" face="Georgia">[Nov. 2024]</font>** 🎉Congratulations! Our paper ***'RFBus'*** won the [BEST PAPER AWARD](https://sensys.acm.org/2024/award/) of SenSys '24 ! (1 out of all 313 submissions)
