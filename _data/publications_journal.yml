@@ -1,18 +1,18 @@
 main:
+  # - title: "Bringing LoRa Downlink to Backscatter Devices"
+  #   authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Chong Zhang, Songfan Li, Shuwei Wu, Ruizhe Zhang, and Li Lu
+  #   conference_short: TON
+  #   conference: IEEE Transactions on Networking (TON)
 
   - title: "Embedding Chips Over the Air: Rethink IoT Architecture for Ubiquitous Sensing"
     authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu 
-    conference_short: TMC '25
+    conference_short: TMC
     conference: IEEE Transactions on Mobile Computing (TMC), 2025
 
-  - title: "Energy-Efficient Dynamic Configurable Datapath Architecture for IoT Devices"
-    authors: Ruizhe Zhang, Junhui Liu, <strong>Han Wang</strong>, and Li Lu
-    conference_short: JCIN '24
-    conference: Journal of Communications and Information Networks, 2024
     
   - title: "MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization"
     authors: Xinyu Tong, <strong>Han Wang</strong>, Xiulong Liu, and Wenyu Qu 
-    conference_short: TMC '21
+    conference_short: TMC
     conference: IEEE Transactions on Mobile Computing (TMC), 2021
 #    pdf: https://mqhyes.github.io/
 #    code: https://github.com/MrGiovanni/ContinualLearning
