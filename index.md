@@ -3,7 +3,7 @@ layout: homepage
 ---
 ## About Me
 
-Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working towards my Ph.D. degree at the School of Computer Science and Engineering, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), where I am honored to be under the supervision of Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my bachelor's degree in College of Intelligence and Computing from [Tianjin University](https://en.tju.edu.cn/) in 2022, and I greatly appreciated the mentorship of Assoc.Res. [Xinyu Tong](http://cic.tju.edu.cn/faculty/tongxinyu/index.html). I am deeply passionate about research on *low-power wireless systems*. 
+Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working towards my Ph.D. degree at the School of Computer Science and Engineering, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), where I am honored to be under the supervision of Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my bachelor's degree in the School of Computer Science and Technology from [Tianjin University](https://en.tju.edu.cn/) in 2022, and I greatly appreciated the mentorship of Assoc.Res. [Xinyu Tong](http://cic.tju.edu.cn/faculty/tongxinyu/index.html). I am deeply passionate about research on *low-power wireless systems*. 
 
 ## Research Interests
 
