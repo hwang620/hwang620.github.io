@@ -1,4 +1,9 @@
 main:
+    - title: "Baro2Talk: Reconstructing Spectrograms from Ear Canal Pressure for Voice-free Communication"
+      authors: Luo Zhou, Shan Chang, <strong>Han Wang</strong>, Xianbo Wang, and Hongzi Zhu
+      conference_short: INFOCOM '26
+      conference: IEEE International Conference on Computer Communications
+      
     - title: "μMan: Towards Device-Agnostic Power Management for Battery-free IoT"
       authors: Chong Zhang,  <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Shengyu Li, Songfan Li, Zetao Gao, Li Lu, and Hongzi Zhu
       conference_short: SenSys '26
