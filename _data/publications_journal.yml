@@ -4,6 +4,11 @@ main:
   #   conference_short: TON
   #   conference: IEEE Transactions on Networking (TON)
 
+  - title: "Bringing LoRa Downlink to Backscatter Devices"
+    authors: Han Wang, Yihang Song, Qianhe Meng, Chong Zhang, Songfan Li, Shuwei Wu, Ruizhe Zhang, and Li Lu 
+    conference_short: ToN
+    conference: IEEE Transactions on Networking (ToN), 2026
+
   - title: "Embedding Chips Over the Air: Rethink IoT Architecture for Ubiquitous Sensing"
     authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu 
     conference_short: TMC
