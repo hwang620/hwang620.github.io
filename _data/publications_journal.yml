@@ -5,7 +5,7 @@ main:
   #   conference: IEEE Transactions on Networking (TON)
 
   - title: "Bringing LoRa Downlink to Backscatter Devices"
-    authors: Han Wang, Yihang Song, Qianhe Meng, Chong Zhang, Songfan Li, Shuwei Wu, Ruizhe Zhang, and Li Lu 
+    authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Chong Zhang, Songfan Li, Shuwei Wu, Ruizhe Zhang, and Li Lu 
     conference_short: ToN
     conference: IEEE Transactions on Networking (ToN), 2026
 
