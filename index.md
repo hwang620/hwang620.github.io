@@ -7,24 +7,25 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 
 ## Research Interests
 
-- **<font face="Georgia">Wireless:</font>** low-power communication systems, sensing
-- **<font face="Georgia">Embedded systems:</font>** energy-efficient computing systems, ubiquitous computing
+- **<font face="Georgia">Wireless:</font>** low-power communication and sensing
+- **<font face="Georgia">Embedded systems:</font>** ubiquitous computing
 
 ## News
 
 - **<font color="3A5FCD" face="Georgia">[Oct. 2025]</font>** Our paper ***'μMan'*** about device-agnostic energy management for battery-free IoT is accepted to **SenSys '26**.
 - **<font color="3A5FCD" face="Georgia">[Apr. 2025]</font>** Our paper ***'LEGO+'*** about thorough redundancy removal for IoT sensing systems is accepted to **MobiSys '25**.
-- **<font color="3A5FCD" face="Georgia">[Jan. 2025]</font>** Our paper ***'Cubid'*** about reliable collaboration among battery-free nodes is accepted to **ICC '25**.
 - **<font color="3A5FCD" face="Georgia">[Nov. 2024]</font>** 🎉Congratulations! Our paper ***'RFBus'*** won the [BEST PAPER AWARD](https://sensys.acm.org/2024/award/) of SenSys '24 ! (1 out of all 313 submissions)
 - **<font color="3A5FCD" face="Georgia">[Sep. 2024]</font>** Our paper ***'RFBus'*** about low-cost IoT system architecture is accepted to **SenSys '24**.
 - **<font color="3A5FCD" face="Georgia">[Aug. 2024]</font>** Our paper ***'Sisyphus'*** about low-power LoRa receiver is accepted to **MobiCom '24**.
+
+{% include_relative _includes/honors.md %} 
 
 {% include_relative _includes/publications_v2.md %}
 
 {% include_relative _includes/services.md %} 
 <br>
 
-{% include_relative _includes/honors.md %} 
+
 
 
 

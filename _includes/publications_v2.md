@@ -6,6 +6,7 @@
 <ol class="bibliography_conference">
 <h4 style="margin:0 10px 0;">Conference Papers</h4>
 
+
 {% for link in site.data.publications_conference.main %}
 
 <li>
