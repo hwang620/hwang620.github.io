@@ -3,12 +3,12 @@ layout: homepage
 ---
 ## About Me
 
-Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working towards my Ph.D. degree at the School of Computer Science and Engineering, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), where I first enrolled as a master’s student and later transitioned to the Ph.D. program. I am fortunate to be advised by  Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my B.S. in Computer Science and Technology from [Tianjin University](https://en.tju.edu.cn/) in 2022, and I greatly appreciated the mentorship of Assoc.Res. [Xinyu Tong](http://cic.tju.edu.cn/faculty/tongxinyu/index.html). My research interests center on *low-power wireless systems*.
+Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working towards my Ph.D. degree at the School of Computer Science and Engineering, [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/), where I first enrolled as a master’s student and later transitioned to the Ph.D. program. I am fortunate to be advised by  Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my B.S. in Computer Science and Technology from [Tianjin University](https://en.tju.edu.cn/) in 2022, and I appreciated the mentorship of Assoc.Res. [Xinyu Tong](http://cic.tju.edu.cn/faculty/tongxinyu/index.html). My research interests center on *low-power wireless systems*.
 
 ## Research Interests
 
 - **Wireless and RFIC:** I'm devoted on low-power communication and sensing paradigms that make practical, ubiquitous wireless connectivity possible for everyday objects.
-- **Embedded Systems:** I enjoy designing simple yet effective solutions—and building the systems to match—that bring critical, previously cost-prohibitive capabilities to resource-constrained end devices.
+- **Embedded Systems:** I enjoy designing simple yet effective solutions—and building the systems to match—that bring critical, previously cost-prohibitive capabilities to resource-constrained embedded devices.
 
 ## News
 
