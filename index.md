@@ -7,7 +7,7 @@ Welcome! My name is **<font face="Georgia">Han Wang</font>**, currently working 
 
 ## Research Interests
 
-- **Wireless and RFIC:** I'm devoted on low-power communication paradigms that make practical, ubiquitous wireless connectivity possible for everyday objects.
+- **Wireless and RFIC:** I'm devoted on low-power communication paradigms and their CMOS-enabled implementations that make practical, ubiquitous wireless connectivity possible for everyday objects.
 - **Embedded Systems:** I enjoy designing simple yet effective solutions—and building the systems to match—that bring critical, previously cost-prohibitive capabilities to resource-constrained embedded devices.
 
 ## News
