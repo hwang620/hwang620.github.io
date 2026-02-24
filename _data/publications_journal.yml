@@ -8,31 +8,31 @@ main:
     authors: 	Chong Zhang, Lihu Zhou, Chuanhui Zhang, Xiao Zhang, Huaiyu Yang, Xiaojun Zhang, Yan Chen, and <strong>Han Wang* (Corresponding Author)</strong>
     conference_short: TMC 
     conference: IEEE Transactions on Mobile Computing (TMC), 2026, Under Major Revision
-    note: CCF-A
+    notes: CCF-A
 
   - title: "PABT: A Cost-Efficient Trustworthy Sensing Architecture with Physics-Augmented Spatiotemporal Inference for IoT Systems"
     authors: Chong Zhang, Xin Shi, Xiaojun Zhang, Rang Zhou, Yufei Xiang, Yang Wang, and <strong>Han Wang</strong> 
     conference_short: TC
     conference: IEEE Transactions on Computers (TC), 2026, Under Major Revision 
-    note: CCF-A
+    notes: CCF-A
 
   - title: "Bringing LoRa Downlink to Backscatter Devices"
     authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Chong Zhang, Songfan Li, Shuwei Wu, Ruizhe Zhang, and Li Lu 
     conference_short: ToN
     conference: IEEE Transactions on Networking (ToN), 2025
-    note: CCF-A
+    notes: CCF-A
 
   - title: "Embedding Chips Over the Air: Rethink IoT Architecture for Ubiquitous Sensing"
     authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu 
     conference_short: TMC
     conference: IEEE Transactions on Mobile Computing (TMC), 2025
-    note: CCF-A
+    notes: CCF-A
 
   - title: "MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization"
     authors: Xinyu Tong, <strong>Han Wang</strong>, Xiulong Liu, and Wenyu Qu 
     conference_short: TMC
     conference: IEEE Transactions on Mobile Computing (TMC), 2021
-    note: CCF-A
+    notes: CCF-A
 #    pdf: https://mqhyes.github.io/
 #    code: https://github.com/MrGiovanni/ContinualLearning
 #    bibtex: https://bib.yliu.me/MICCAI23.txt
