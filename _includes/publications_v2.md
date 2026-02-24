@@ -1,7 +1,6 @@
 <style>
-  /* === 莫兰迪色系 (Morandi Palette) 全局配色与样式 === */
+  /* === 深灰度/复古学院风 配色 === */
 
-  /* 标题与图标：深灰蓝 */
   .pub-header {
     display: flex;
     align-items: center;
@@ -9,7 +8,7 @@
     margin: 2px 0px 15px;
     font-size: 24px;
     font-weight: bold;
-    color: #2b3a4a; 
+    color: #1a293b; 
   }
 
   .pub-tabs {
@@ -18,7 +17,6 @@
     margin-bottom: 25px;
   }
 
-  /* 默认按钮：浅灰白 */
   .pub-tab-btn {
     padding: 8px 20px;
     border: none;
@@ -26,20 +24,20 @@
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    background-color: #f0f2f5;
-    color: #5c6b79;
+    transition: all 0.2s ease;
+    background-color: #e2e8f0;
+    color: #475569;
   }
 
   .pub-tab-btn:hover {
-    background-color: #e2e6ea;
+    background-color: #cbd5e1;
   }
 
-  /* 选中按钮：雾霾蓝 */
+  /* 选中按钮：深藏青色 */
   .pub-tab-btn.active {
-    background-color: #6b8299; 
+    background-color: #2b4c6f; 
     color: white;
-    box-shadow: 0 4px 10px rgba(107, 130, 153, 0.3);
+    box-shadow: 0 4px 6px rgba(43, 76, 111, 0.2);
   }
 
   .pub-tab-content {
@@ -48,7 +46,7 @@
 
   .pub-tab-content.active {
     display: block;
-    animation: fadeInOpacity 0.4s ease-in-out;
+    animation: fadeInOpacity 0.3s ease-in-out;
   }
 
   @keyframes fadeInOpacity {
@@ -67,7 +65,7 @@
     flex-direction: row;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px dashed #dbe0e6; /* 改为更柔和的虚线 */
+    border-bottom: 1px dotted #cbd5e1;
   }
 
   /* 左侧栏布局 */
@@ -78,18 +76,18 @@
     padding-top: 4px;
   }
 
-  /* 核心视觉：左侧会议标签 (莫兰迪藕粉色 + 不对称圆角) */
+  /* 最左侧会议短名：深砖红色 (Brick Red) */
   .pub-ccf-badge {
-    background-color: #d99b95; 
+    background-color: #a34141; 
     color: #fff;
     width: 90px;
-    padding: 6px 0px; 
-    border-radius: 12px 4px 12px 4px; /* 不对称倒角设计，区别于传统方块 */
-    font-weight: 700;
+    padding: 5px 0px; 
+    border-radius: 6px; 
+    font-weight: 800;
     font-size: 13px; 
     letter-spacing: 0.5px;
     text-align: center;
-    box-shadow: 0 3px 6px rgba(217, 155, 149, 0.25);
+    box-shadow: 0 2px 4px rgba(163, 65, 65, 0.25);
     height: fit-content;
     line-height: 1.2;
   }
@@ -102,38 +100,38 @@
   .pub-title {
     font-size: 18px;
     font-weight: 700;
-    color: #313d4a; /* 深岩灰 */
+    color: #1e293b; 
     margin-bottom: 6px;
     line-height: 1.35;
   }
 
   .pub-title a {
-    color: #313d4a;
+    color: #1e293b;
     text-decoration: none;
     transition: color 0.2s;
   }
 
   .pub-title a:hover {
-    color: #6b8299; /* 悬停变为雾霾蓝 */
+    color: #2b4c6f; 
   }
 
   .pub-authors {
     font-size: 15px;
-    color: #798795; /* 暖灰色 */
+    color: #475569; 
     margin-bottom: 4px; 
     line-height: 1.5;
   }
 
   .pub-venue-full {
     font-size: 14.5px;
-    color: #647382; /* 中度灰蓝 */
+    color: #64748b; 
     margin-bottom: 10px;
     line-height: 1.4;
   }
 
-  /* 奖项高亮：莫兰迪赤陶色 */
+  /* 奖项高亮：古典红 */
   .pub-award {
-    color: #c47864; 
+    color: #b91c1c; 
     font-weight: 700;
     font-size: 14px;
     margin-bottom: 10px;
@@ -145,41 +143,37 @@
   .pub-tags-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
     align-items: center;
     margin-bottom: 10px;
   }
 
-  /* 期刊/会议类型标签：莫兰迪豆绿 */
-  .pub-venue-badge {
-    background-color: #cbd5c9;
-    color: #3f523d; /* 深墨绿 */
+  /* ================= 动态标签配色库 ================= */
+  .pub-badge-type, .pub-badge-ccf {
     padding: 3px 12px;
-    border-radius: 999px; /* 胶囊状 */
-    font-size: 11.5px;
+    border-radius: 4px;
+    font-size: 12px;
     font-weight: 700;
+    color: white;
     letter-spacing: 0.5px;
   }
 
-  /* CCF评级标签：莫兰迪米黄 */
-  .pub-type-badge {
-    background-color: #e5dcc3;
-    color: #634d31; /* 暖棕色 */
-    padding: 3px 10px;
-    border-radius: 4px 10px 4px 10px; /* 轻微不对称圆角 */
-    font-size: 11.5px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-  }
+  /* 论文类型分类 */
+  .type-conf { background-color: #55799d; }    /* 会议：复古钢蓝 (Steel Blue) */
+  .type-journal { background-color: #55876d; } /* 期刊：复古松绿 (Sage Green) */
 
-  /* 研究关键词：极简白灰 */
+  /* CCF评级分类 */
+  .ccf-ccfa { background-color: #c99a3c; } /* CCF A：琉璃金 (Rich Gold) */
+  .ccf-ccfb { background-color: #c26e53; } /* CCF B：赤陶色 (Terra Cotta) */
+  .ccf-ccfc { background-color: #8b738c; } /* CCF C：绛紫色 (Muted Plum) */
+
+  /* 关键词标签：实线灰框 */
   .pub-keyword-badge {
-    border: 1px solid #dbe0e6;
-    background-color: transparent;
-    color: #8c98a4;
+    border: 1px solid #94a3b8;
+    color: #475569;
     padding: 2px 10px;
     border-radius: 999px;
-    font-size: 11.5px;
+    font-size: 12px;
     font-weight: 500;
   }
 
@@ -190,35 +184,20 @@
 
   .pub-links a {
     font-size: 13.5px;
-    color: #6b8299; /* 雾霾蓝 */
+    color: #3b5a7a; 
     margin-right: 14px;
     text-decoration: none;
     font-weight: 600;
     position: relative;
   }
 
-  /* 链接悬停下划线动画 */
-  .pub-links a::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 1.5px;
-    bottom: -2px;
-    left: 0;
-    background-color: #6b8299;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-
-  .pub-links a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  .pub-links a:hover {
+    text-decoration: underline;
   }
 </style>
 
 <h2 id="publications" class="pub-header">
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2b3a4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2b4c6f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
     <polyline points="14 2 14 8 20 8"></polyline>
     <line x1="16" y1="13" x2="8" y2="13"></line>
@@ -228,12 +207,10 @@
   Publications
 </h2>
 
-
 <div class="pub-tabs">
   <button class="pub-tab-btn active" onclick="switchPubTab(event, 'tab-selected')">Selected Publications</button>
   <button class="pub-tab-btn" onclick="switchPubTab(event, 'tab-all')">All Publications</button>
 </div>
-
 
 <div id="tab-selected" class="pub-tab-content active">
   <ul class="custom-bibliography">
@@ -256,7 +233,7 @@
     
         {% if link.award %}
         <div class="pub-award">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c47864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b91c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
             <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
             <path d="M4 22h16"></path>
@@ -269,8 +246,18 @@
         {% endif %}
     
         <div class="pub-tags-row">
-          {% if link.type %}<span class="pub-venue-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-venue-badge">CONFERENCE</span>{% endif %}
-          {% if link.notes %}<span class="pub-type-badge">{{ link.notes | replace: "-", " " }}</span>{% endif %}
+          {% assign vtype = link.type | default: "CONFERENCE" | upcase %}
+          {% if vtype == "JOURNAL" %}
+            <span class="pub-badge-type type-journal">JOURNAL</span>
+          {% else %}
+            <span class="pub-badge-type type-conf">CONFERENCE</span>
+          {% endif %}
+          
+          {% if link.notes %}
+            {% assign ccf_class = link.notes | downcase | remove: " " | remove: "-" %}
+            <span class="pub-badge-ccf ccf-{{ ccf_class }}">{{ link.notes | replace: "-", " " }}</span>
+          {% endif %}
+    
           {% for tag in link.tags %}<span class="pub-keyword-badge">{{ tag }}</span>{% endfor %}
         </div>
         
@@ -284,12 +271,11 @@
           {% if link.code %} <a href="{{ link.code }}" target="_blank">[Code]</a> {% endif %}
           {% if link.page %} <a href="{{ link.page }}" target="_blank">[Project Page]</a> {% endif %}
           {% if link.bibtex %} <a href="{{ link.bibtex }}" target="_blank">[BibTex]</a> {% endif %}
-          {% if link.others %} <span style="font-size: 13px; color: #8c98a4;">{{ link.others }}</span> {% endif %}
+          {% if link.others %} <span style="font-size: 13px; color: #64748b;">{{ link.others }}</span> {% endif %}
         </div>
       </div>
     </li>
     {% endfor %}
-
   </ul>
 </div>
 
@@ -314,7 +300,7 @@
     
         {% if link.award %}
         <div class="pub-award">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c47864" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b91c1c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
             <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
             <path d="M4 22h16"></path>
@@ -327,8 +313,18 @@
         {% endif %}
     
         <div class="pub-tags-row">
-          {% if link.type %}<span class="pub-venue-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-venue-badge">CONFERENCE</span>{% endif %}
-          {% if link.notes %}<span class="pub-type-badge">{{ link.notes | replace: "-", " " }}</span>{% endif %}
+          {% assign vtype = link.type | default: "CONFERENCE" | upcase %}
+          {% if vtype == "JOURNAL" %}
+            <span class="pub-badge-type type-journal">JOURNAL</span>
+          {% else %}
+            <span class="pub-badge-type type-conf">CONFERENCE</span>
+          {% endif %}
+          
+          {% if link.notes %}
+            {% assign ccf_class = link.notes | downcase | remove: " " | remove: "-" %}
+            <span class="pub-badge-ccf ccf-{{ ccf_class }}">{{ link.notes | replace: "-", " " }}</span>
+          {% endif %}
+    
           {% for tag in link.tags %}<span class="pub-keyword-badge">{{ tag }}</span>{% endfor %}
         </div>
         
@@ -342,12 +338,11 @@
           {% if link.code %} <a href="{{ link.code }}" target="_blank">[Code]</a> {% endif %}
           {% if link.page %} <a href="{{ link.page }}" target="_blank">[Project Page]</a> {% endif %}
           {% if link.bibtex %} <a href="{{ link.bibtex }}" target="_blank">[BibTex]</a> {% endif %}
-          {% if link.others %} <span style="font-size: 13px; color: #8c98a4;">{{ link.others }}</span> {% endif %}
+          {% if link.others %} <span style="font-size: 13px; color: #64748b;">{{ link.others }}</span> {% endif %}
         </div>
       </div>
     </li>
     {% endfor %}
-
   </ul>
 </div>
 
