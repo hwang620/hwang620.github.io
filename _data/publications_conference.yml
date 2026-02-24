@@ -1,4 +1,29 @@
 main:
+    - title: "μMan: Towards Device-Agnostic Power Management for Battery-free IoT"
+      authors: Chong Zhang,  <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Shengyu Li, Songfan Li, Zetao Gao, Li Lu, and Hongzi Zhu
+      conference_short: SenSys '26
+      conference: ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems
+      notes: CCF-B
+
+    - title: "Baro2Talk: Reconstructing Spectrograms from Ear Canal Pressure for Voice-free Communication"
+      authors: Luo Zhou, Shan Chang, <strong>Han Wang</strong>, Xianbo Wang, and Hongzi Zhu
+      conference_short: INFOCOM '26
+      conference: IEEE International Conference on Computer Communications
+      notes: CCF-A
+
+    - title: "LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems"
+      authors: Chong Zhang, <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, and Li Lu
+      conference_short: MobiSys '25
+      conference: The 23rd ACM International Conference on Mobile Systems, Applications, and Services
+      pdf: ./assets/files/LEGO+_mobisys25.pdf
+      notes: CCF-B
+
+    - title: "Cupid: Empowering Reliable Collaboration for Intermittent Computing Nodes"
+      authors: Yize Zhao, Chong Zhang, Zetao Gao, <strong>Han Wang</strong>, Qianhe Meng, and Li Lu
+      conference_short: ICC '25
+      conference: IEEE International Conference on Communications
+      notes: CCF-C
+
     - title: "Sisyphus: Redefining Low Power for LoRa Receiver"
       authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, and Li Lu
       conference_short: MobiCom '24
@@ -7,7 +32,7 @@ main:
       slides: ./assets/files/Sisyphus_slides.pdf
 #    bibtex: https://bib.yliu.me/MICCAI23.txt
     # image: ./assets/img/teaser_sisyphus.png
-    # notes: CCF-A
+      notes: CCF-A
 
     - title: "Processor-Sharing Internet of Things Architecture for Large-Scale Deployment"
       authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu
@@ -20,26 +45,13 @@ main:
 #    image: ./assets/img/teaser_example_2.png
       notes: Best Paper Award, ACM SIGMOBILE Research Highlight
 
-    - title: "μMan: Towards Device-Agnostic Power Management for Battery-free IoT"
-      authors: Chong Zhang,  <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Shengyu Li, Songfan Li, Zetao Gao, Li Lu, and Hongzi Zhu
-      conference_short: SenSys '26
-      conference: ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems
-
-    - title: "LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems"
-      authors: Chong Zhang, <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, and Li Lu
-      conference_short: MobiSys '25
-      conference: The 23rd ACM International Conference on Mobile Systems, Applications, and Services
-      pdf: ./assets/files/LEGO+_mobisys25.pdf
     
-    - title: "Baro2Talk: Reconstructing Spectrograms from Ear Canal Pressure for Voice-free Communication"
-      authors: Luo Zhou, Shan Chang, <strong>Han Wang</strong>, Xianbo Wang, and Hongzi Zhu
-      conference_short: INFOCOM '26
-      conference: IEEE International Conference on Computer Communications
 
-    - title: "Cupid: Empowering Reliable Collaboration for Intermittent Computing Nodes"
-      authors: Yize Zhao, Chong Zhang, Zetao Gao, <strong>Han Wang</strong>, Qianhe Meng, and Li Lu
-      conference_short: ICC '25
-      conference: IEEE International Conference on Communications
+    
+    
+    
+
+    
 
     
 
