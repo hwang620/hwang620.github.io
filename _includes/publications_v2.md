@@ -67,8 +67,9 @@
   }
 
   /* 左侧红底标签栏：略微加宽以适应会议名称 */
+/* 左侧红底标签栏 */
   .pub-badge-col {
-    flex: 0 0 90px; 
+    flex: 0 0 105px; /* 增加整列的宽度，为固定宽度的红块留出空间 */
     display: flex;
     justify-content: flex-start;
     padding-top: 2px;
@@ -77,13 +78,15 @@
   .pub-ccf-badge {
     background-color: #f1404b;
     color: white;
-    padding: 3px 8px;
+    width: 90px; /* 【关键修改】强制设定固定宽度，让所有红块完全一样大 */
+    padding: 4px 0px; /* 上下留白，左右通过宽度限制 */
     border-radius: 4px;
     font-weight: 800;
-    font-size: 13px;
+    font-size: 12px; /* 字号调整为12px，确保 INFOCOM 等较长名字能完整塞进一行 */
     text-align: center;
     box-shadow: 0 2px 4px rgba(241, 64, 75, 0.2);
     height: fit-content;
+    line-height: 1.2;
   }
 
   .pub-content-col {
