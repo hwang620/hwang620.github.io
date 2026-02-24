@@ -114,6 +114,17 @@
     line-height: 1.5;
   }
 
+  /* === 奖项 (Award) 高亮样式 === */
+  .pub-award {
+    color: #e11d48; /* 醒目的玫瑰红 */
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
   .pub-tags-row {
     display: flex;
     flex-wrap: wrap;
@@ -194,11 +205,27 @@
           {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank">{{ link.title }}</a>{% else %}{{ link.title }}{% endif %}
         </div>
         <div class="pub-authors">{{ link.authors }}</div>
+
+        {% if link.award %}
+        <div class="pub-award">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e11d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+            <path d="M4 22h16"></path>
+            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+            <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+          </svg>
+          {{ link.award }}
+        </div>
+        {% endif %}
+    
         <div class="pub-tags-row">
           <span class="pub-venue-badge">{{ link.conference_short }}</span>
           {% if link.type %}<span class="pub-type-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-type-badge">CONFERENCE</span>{% endif %}
           {% for tag in link.tags %}<span class="pub-keyword-badge">{{ tag }}</span>{% endfor %}
         </div>
+        
         <div class="pub-links">
           {% if link.pdf %} <a href="{{ link.pdf }}" target="_blank">[Paper]</a> {% endif %}
           {% if link.slides %} <a href="{{ link.slides }}" target="_blank">[Slides]</a> {% endif %}
@@ -226,11 +253,27 @@
           {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank">{{ link.title }}</a>{% else %}{{ link.title }}{% endif %}
         </div>
         <div class="pub-authors">{{ link.authors }}</div>
+
+        {% if link.award %}
+        <div class="pub-award">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e11d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+            <path d="M4 22h16"></path>
+            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+            <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+          </svg>
+          {{ link.award }}
+        </div>
+        {% endif %}
+    
         <div class="pub-tags-row">
           <span class="pub-venue-badge">{{ link.conference_short }}</span>
           {% if link.type %}<span class="pub-type-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-type-badge">CONFERENCE</span>{% endif %}
           {% for tag in link.tags %}<span class="pub-keyword-badge">{{ tag }}</span>{% endfor %}
         </div>
+        
         <div class="pub-links">
           {% if link.pdf %} <a href="{{ link.pdf }}" target="_blank">[Paper]</a> {% endif %}
           {% if link.slides %} <a href="{{ link.slides }}" target="_blank">[Slides]</a> {% endif %}
