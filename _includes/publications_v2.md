@@ -19,13 +19,13 @@
   .pub-tab-btn {
     padding: 8px 20px;
     border: none;
-    border-radius: 9999px; /* 胶囊形状 */
+    border-radius: 9999px;
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
-    background-color: #f9fafb; /* 默认浅灰色背景 */
-    color: #374151; /* 默认深灰字体 */
+    background-color: #f9fafb;
+    color: #374151;
   }
 
   .pub-tab-btn:hover {
@@ -33,16 +33,16 @@
   }
 
   .pub-tab-btn.active {
-    background-color: #21409a; /* 仿图中的深蓝色 */
+    background-color: #21409a;
     color: white;
   }
 
   .pub-tab-content {
-    display: none; /* 默认隐藏所有内容 */
+    display: none;
   }
 
   .pub-tab-content.active {
-    display: block; /* 仅显示带有 active 类的选中内容 */
+    display: block;
     animation: fadeIn 0.3s;
   }
 
@@ -66,10 +66,9 @@
     border-bottom: 1px dotted #e5e7eb;
   }
 
-  /* 左侧红底标签栏：略微加宽以适应会议名称 */
-/* 左侧红底标签栏 */
+  /* 左侧红底标签栏：固定宽度 */
   .pub-badge-col {
-    flex: 0 0 105px; /* 增加整列的宽度，为固定宽度的红块留出空间 */
+    flex: 0 0 105px; 
     display: flex;
     justify-content: flex-start;
     padding-top: 2px;
@@ -78,11 +77,11 @@
   .pub-ccf-badge {
     background-color: #f1404b;
     color: white;
-    width: 90px; /* 【关键修改】强制设定固定宽度，让所有红块完全一样大 */
-    padding: 4px 0px; /* 上下留白，左右通过宽度限制 */
+    width: 90px; /* 固定宽度，确保所有红块一样大 */
+    padding: 4px 0px; 
     border-radius: 4px;
     font-weight: 800;
-    font-size: 12px; /* 字号调整为12px，确保 INFOCOM 等较长名字能完整塞进一行 */
+    font-size: 12px; 
     text-align: center;
     box-shadow: 0 2px 4px rgba(241, 64, 75, 0.2);
     height: fit-content;
@@ -114,13 +113,21 @@
   .pub-authors {
     font-size: 15px;
     color: #6b7280;
-    margin-bottom: 10px;
+    margin-bottom: 4px; /* 减小间距，给下方的全称留位置 */
     line-height: 1.5;
+  }
+
+  /* 【新增】期刊/会议全称与年份样式 */
+  .pub-venue-full {
+    font-size: 14.5px;
+    color: #4b5563;
+    margin-bottom: 10px;
+    line-height: 1.4;
   }
 
   /* === 奖项 (Award) 高亮样式 === */
   .pub-award {
-    color: #e11d48; /* 醒目的玫瑰红 */
+    color: #e11d48;
     font-weight: 700;
     font-size: 14px;
     margin-bottom: 8px;
@@ -210,6 +217,12 @@
         </div>
         <div class="pub-authors">{{ link.authors }}</div>
 
+        {% if link.conference %}
+        <div class="pub-venue-full">
+          <em>{{ link.conference }}</em>{% if link.year %}, <strong>{{ link.year }}</strong>{% endif %}
+        </div>
+        {% endif %}
+    
         {% if link.award %}
         <div class="pub-award">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e11d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -226,14 +239,15 @@
     
         <div class="pub-tags-row">
           {% if link.type %}<span class="pub-venue-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-venue-badge">CONFERENCE</span>{% endif %}
-          
           {% if link.notes %}<span class="pub-type-badge">{{ link.notes | replace: "-", " " }}</span>{% endif %}
-          
           {% for tag in link.tags %}<span class="pub-keyword-badge">{{ tag }}</span>{% endfor %}
         </div>
         
         <div class="pub-links">
           {% if link.pdf %} <a href="{{ link.pdf }}" target="_blank">[Paper]</a> {% endif %}
+          {% if link.doi %} <a href="{{ link.doi }}" target="_blank">[DOI]</a> {% endif %}
+          {% if link.dataset %} <a href="{{ link.dataset }}" target="_blank">[Dataset]</a> {% endif %}
+          {% if link.hardware %} <a href="{{ link.hardware }}" target="_blank">[Hardware]</a> {% endif %}
           {% if link.slides %} <a href="{{ link.slides }}" target="_blank">[Slides]</a> {% endif %}
           {% if link.video %} <a href="{{ link.video }}" target="_blank">[Video]</a> {% endif %}
           {% if link.code %} <a href="{{ link.code }}" target="_blank">[Code]</a> {% endif %}
@@ -260,6 +274,12 @@
         </div>
         <div class="pub-authors">{{ link.authors }}</div>
 
+        {% if link.conference %}
+        <div class="pub-venue-full">
+          <em>{{ link.conference }}</em>{% if link.year %}, <strong>{{ link.year }}</strong>{% endif %}
+        </div>
+        {% endif %}
+    
         {% if link.award %}
         <div class="pub-award">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e11d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -276,15 +296,17 @@
     
         <div class="pub-tags-row">
           {% if link.type %}<span class="pub-venue-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-venue-badge">CONFERENCE</span>{% endif %}
-          
           {% if link.notes %}<span class="pub-type-badge">{{ link.notes | replace: "-", " " }}</span>{% endif %}
-          
           {% for tag in link.tags %}<span class="pub-keyword-badge">{{ tag }}</span>{% endfor %}
         </div>
         
         <div class="pub-links">
           {% if link.pdf %} <a href="{{ link.pdf }}" target="_blank">[Paper]</a> {% endif %}
+          {% if link.doi %} <a href="{{ link.doi }}" target="_blank">[DOI]</a> {% endif %}
+          {% if link.dataset %} <a href="{{ link.dataset }}" target="_blank">[Dataset]</a> {% endif %}
+          {% if link.hardware %} <a href="{{ link.hardware }}" target="_blank">[Hardware]</a> {% endif %}
           {% if link.slides %} <a href="{{ link.slides }}" target="_blank">[Slides]</a> {% endif %}
+          {% if link.video %} <a href="{{ link.video }}" target="_blank">[Video]</a> {% endif %}
           {% if link.code %} <a href="{{ link.code }}" target="_blank">[Code]</a> {% endif %}
           {% if link.page %} <a href="{{ link.page }}" target="_blank">[Project Page]</a> {% endif %}
           {% if link.bibtex %} <a href="{{ link.bibtex }}" target="_blank">[BibTex]</a> {% endif %}

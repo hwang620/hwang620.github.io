@@ -3,53 +3,49 @@ main:
       authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, and Li Lu
       conference_short: MobiCom '24
       conference: The 30th Annual International Conference on Mobile Computing and Networking
+      year: 2024
       pdf: ./assets/files/Sisyphus_mobicom24.pdf
       slides: ./assets/files/Sisyphus_slides.pdf
-#    bibtex: https://bib.yliu.me/MICCAI23.txt
+#     bibtex: https://bib.yliu.me/MICCAI23.txt
     # image: ./assets/img/teaser_sisyphus.png
       notes: CCF-A
+      type: CONFERENCE
 
     - title: "Bringing LoRa Downlink to Backscatter Devices"
       authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Chong Zhang, Songfan Li, Shuwei Wu, Ruizhe Zhang, and Li Lu 
       conference_short: ToN
-      conference: IEEE Transactions on Networking (ToN), 2025
+      conference: IEEE Transactions on Networking (ToN)
+      year: 2025
       notes: CCF-A
+      type: JOURNAL
 
     - title: "Processor-Sharing Internet of Things Architecture for Large-Scale Deployment"
       authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu
       conference_short: SenSys '24
       conference: The 22nd ACM Conference on Embedded Networked Sensor Systems
+      year: 2024
       pdf: ./assets/files/RFBUS_sensys24.pdf
       slides: ./assets/files/RFBUS_slides.pdf
-#    code: https://github.com/MrGiovanni/ContinualLearning
-#    bibtex: https://bib.yliu.me/MICCAI23.txt
-#    image: ./assets/img/teaser_example_2.png
+#     code: https://github.com/MrGiovanni/ContinualLearning
+#     bibtex: https://bib.yliu.me/MICCAI23.txt
+#     image: ./assets/img/teaser_example_2.png
       notes: CCF-B
       type: CONFERENCE
       award: "Best Paper Award"  
       others: "ACM SIGMOBILE Research Highlight" 
 
-    
-
-    
-
-    
-
 
     # pdf: ./assets/files/RFBUS_sensys24.pdf
     # slides: ./assets/files/RFBUS_slides.pdf
-#    code: https://github.com/MrGiovanni/ContinualLearning
-#    bibtex: https://bib.yliu.me/MICCAI23.txt
-#    image: ./assets/img/teaser_example_2.png
+#     code: https://github.com/MrGiovanni/ContinualLearning
+#     bibtex: https://bib.yliu.me/MICCAI23.txt
+#     image: ./assets/img/teaser_example_2.png
     # notes: CCF-B
 
 
     # pdf: 
     # slides: ./assets/files/Sisyphus_slides.pdf
     # video: https://www.youtube.com/watch?v=v3cw942yGKw
-#    bibtex: https://bib.yliu.me/MICCAI23.txt
+#     bibtex: https://bib.yliu.me/MICCAI23.txt
     # image: ./assets/img/teaser_sisyphus.png
     # notes: CCF-C
-
-
-
