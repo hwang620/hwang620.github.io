@@ -21,7 +21,13 @@ main:
       conference: The 22nd ACM Conference on Embedded Networked Sensor Systems
       pdf: ./assets/files/RFBUS_sensys24.pdf
       slides: ./assets/files/RFBUS_slides.pdf
-      notes: CCF-B, Best Paper Award, ACM SIGMOBILE Research Highlight
+#    code: https://github.com/MrGiovanni/ContinualLearning
+#    bibtex: https://bib.yliu.me/MICCAI23.txt
+#    image: ./assets/img/teaser_example_2.png
+      notes: CCF-B
+      type: CONFERENCE
+      award: "Best Paper Award"  
+      others: "ACM SIGMOBILE Research Highlight" 
 
     
 
