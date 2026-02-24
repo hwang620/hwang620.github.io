@@ -11,8 +11,8 @@ main:
 
   - title: "One is Enough: Bringing Trusted Computing to Low-end IoT Devices"
     authors: 	Chong Zhang, Lihu Zhou, Chuanhui Zhang, Xiao Zhang, Huaiyu Yang, Xiaojun Zhang, Yan Chen, and <strong>Han Wang* (Corresponding Author)</strong>
-    conference_short: TMC (Under Major Revision)
-    conference: IEEE Transactions on Mobile Computing (TMC), 2026
+    conference_short: TMC 
+    conference: IEEE Transactions on Mobile Computing (TMC), 2026, Under Major Revision
 
   - title: "Embedding Chips Over the Air: Rethink IoT Architecture for Ubiquitous Sensing"
     authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu 
@@ -21,8 +21,8 @@ main:
 
   - title: "PABT: A Cost-Efficient Trustworthy Sensing Architecture with Physics-Augmented Spatiotemporal Inference for IoT Systems"
     authors: Chong Zhang, Xin Shi, Xiaojun Zhang, Rang Zhou, Yufei Xiang, Yang Wang, and <strong>Han Wang</strong> 
-    conference_short: TC (Under Major Revision)
-    conference: IEEE Transactions on Computers (TC), 2026  
+    conference_short: TC
+    conference: IEEE Transactions on Computers (TC), 2026, Under Major Revision  
     
   - title: "MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization"
     authors: Xinyu Tong, <strong>Han Wang</strong>, Xiulong Liu, and Wenyu Qu 
