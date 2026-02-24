@@ -8,7 +8,7 @@
 
 
 
-{% for link in site.data.publications_conference.main %}
+{% for link in site.data.publications_selected.main %}
 
 <li>
 
