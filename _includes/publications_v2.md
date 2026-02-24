@@ -1,195 +1,268 @@
-<h2 id="publications" style="margin: 2px 0px 10px;">Publications</h2>
+<style>
+  /* === 标签页 (Tabs) 样式 === */
+  .pub-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 2px 0px 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #031b4e;
+  }
 
-<!-- ################################################################################### -->
+  .pub-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
 
-<div class="publications_selected">
-<ol class="bibliography_selected">
-<h4 style="margin:0 10px 0;">Selected Papers</h4>
+  .pub-tab-btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 9999px; /* 胶囊形状 */
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: #f9fafb; /* 默认浅灰色背景 */
+    color: #374151; /* 默认深灰字体 */
+  }
 
+  .pub-tab-btn:hover {
+    background-color: #f3f4f6;
+  }
 
+  .pub-tab-btn.active {
+    background-color: #21409a; /* 仿图中的深蓝色 */
+    color: white;
+  }
 
-{% for link in site.data.publications_selected.main %}
+  .pub-tab-content {
+    display: none; /* 默认隐藏所有内容 */
+  }
 
-<li>
+  .pub-tab-content.active {
+    display: block; /* 仅显示带有 active 类的选中内容 */
+    animation: fadeIn 0.3s;
+  }
 
-<div class="pub-row_conference">
-<!--  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
-  </div>
--->
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="pub-detail">
-        <strong><span style="color: red; font-weight: bold;">[{{ link.conference_short }}]</span> <a href="{{ link.pdf }}" style="font-weight: bold;">{{ link.title }}</a></strong>
-      </div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">[Paper]</a>
-      {% endif %}
-      {% if link.slides %} 
-      <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">[Slides]</a>
-      {% endif %}
-      {% if link.video %} 
-      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">[Presentation video]</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
-  </div>
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* === 论文列表排版样式 === */
+  .custom-bibliography {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  .pub-item {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #e5e7eb;
+  }
+
+  .pub-badge-col {
+    flex: 0 0 75px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2px;
+  }
+
+  .pub-ccf-badge {
+    background-color: #f1404b;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 13px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(241, 64, 75, 0.2);
+    height: fit-content;
+  }
+
+  .pub-content-col {
+    flex: 1;
+    padding-left: 10px;
+  }
+
+  .pub-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 5px;
+    line-height: 1.3;
+  }
+
+  .pub-title a {
+    color: #2c3e50;
+    text-decoration: none;
+  }
+
+  .pub-title a:hover {
+    color: #3b82f6;
+  }
+
+  .pub-authors {
+    font-size: 15px;
+    color: #6b7280;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  .pub-tags-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .pub-venue-badge {
+    background-color: #e0f8f1;
+    color: #0f766e;
+    padding: 3px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .pub-type-badge {
+    background-color: #fef08a;
+    color: #854d0e;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .pub-keyword-badge {
+    border: 1px solid #e5e7eb;
+    background-color: #fafafa;
+    color: #6b7280;
+    padding: 2px 12px;
+    border-radius: 9999px;
+    font-size: 12px;
+  }
+
+  .pub-links {
+    margin-top: 6px;
+  }
+
+  .pub-links a {
+    font-size: 13px;
+    color: #3b82f6;
+    margin-right: 12px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .pub-links a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<h2 id="publications" class="pub-header">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21409a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+    <polyline points="14 2 14 8 20 8"></polyline>
+    <line x1="16" y1="13" x2="8" y2="13"></line>
+    <line x1="16" y1="17" x2="8" y2="17"></line>
+    <polyline points="10 9 9 9 8 9"></polyline>
+  </svg>
+  Publications
+</h2>
+
+<div class="pub-tabs">
+  <button class="pub-tab-btn active" onclick="switchPubTab(event, 'tab-selected')">Selected Publications</button>
+  <button class="pub-tab-btn" onclick="switchPubTab(event, 'tab-all')">All Publications</button>
 </div>
 
-
-
-
-
-</li>
-<br>
-
-{% endfor %}
-
-</ol>
-</div>
-
-
-
-<!-- ################################################################################### -->
-
-<div class="publications_conference">
-<ol class="bibliography_conference">
-<h4 style="margin:0 10px 0;">Conference Papers</h4>
-
-
-{% for link in site.data.publications_conference.main %}
-
-<li>
-
-<div class="pub-row_conference">
-<!--  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
-  </div>
--->
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="pub-detail">
-        <strong><span style="color: red; font-weight: bold;">[{{ link.conference_short }}]</span> <a href="{{ link.pdf }}" style="font-weight: bold;">{{ link.title }}</a></strong>
+<div id="tab-selected" class="pub-tab-content active">
+  <ul class="custom-bibliography">
+    {% for link in site.data.publications_selected.main %}
+    <li class="pub-item">
+      <div class="pub-badge-col">
+        {% if link.notes %}<div class="pub-ccf-badge">{{ link.notes | replace: "-", " " }}</div>{% endif %}
       </div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+      <div class="pub-content-col">
+        <div class="pub-title">
+          {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank">{{ link.title }}</a>{% else %}{{ link.title }}{% endif %}
+        </div>
+        <div class="pub-authors">{{ link.authors }}</div>
+        <div class="pub-tags-row">
+          <span class="pub-venue-badge">{{ link.conference_short }}</span>
+          {% if link.type %}<span class="pub-type-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-type-badge">CONFERENCE</span>{% endif %}
+          {% for tag in link.tags %}<span class="pub-keyword-badge">{{ tag }}</span>{% endfor %}
+        </div>
+        <div class="pub-links">
+          {% if link.pdf %} <a href="{{ link.pdf }}" target="_blank">[Paper]</a> {% endif %}
+          {% if link.slides %} <a href="{{ link.slides }}" target="_blank">[Slides]</a> {% endif %}
+          {% if link.video %} <a href="{{ link.video }}" target="_blank">[Video]</a> {% endif %}
+          {% if link.code %} <a href="{{ link.code }}" target="_blank">[Code]</a> {% endif %}
+          {% if link.page %} <a href="{{ link.page }}" target="_blank">[Project Page]</a> {% endif %}
+          {% if link.bibtex %} <a href="{{ link.bibtex }}" target="_blank">[BibTex]</a> {% endif %}
+          {% if link.others %} <span style="font-size: 13px; color: #6b7280;">{{ link.others }}</span> {% endif %}
+        </div>
       </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">[Paper]</a>
-      {% endif %}
-      {% if link.slides %} 
-      <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">[Slides]</a>
-      {% endif %}
-      {% if link.video %} 
-      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">[Presentation video]</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
-  </div>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 
-
-
-
-</li>
-<br>
-
-{% endfor %}
-
-</ol>
-</div>
-
-<!-- ################################################################################### -->
-
-<div class="publications_journal">
-<ol class="bibliography_journal">
-<h4 style="margin:0 10px 0;">Journal Papers</h4>
-
-{% for link in site.data.publications_journal.main %}
-
-<li>
-<div class="pub-row_journal">
-<!--  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
-  </div>
--->
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="pub-detail">
-        <strong><span style="color: red; font-weight: bold;">[{{ link.conference_short }}]</span> <a href="{{ link.pdf }}" style="font-weight: bold;">{{ link.title }}</a></strong>
+<div id="tab-all" class="pub-tab-content">
+  <ul class="custom-bibliography">
+    {% for link in site.data.publications_all.main %}
+    <li class="pub-item">
+      <div class="pub-badge-col">
+        {% if link.notes %}<div class="pub-ccf-badge">{{ link.notes | replace: "-", " " }}</div>{% endif %}
       </div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+      <div class="pub-content-col">
+        <div class="pub-title">
+          {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank">{{ link.title }}</a>{% else %}{{ link.title }}{% endif %}
+        </div>
+        <div class="pub-authors">{{ link.authors }}</div>
+        <div class="pub-tags-row">
+          <span class="pub-venue-badge">{{ link.conference_short }}</span>
+          {% if link.type %}<span class="pub-type-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-type-badge">CONFERENCE</span>{% endif %}
+          {% for tag in link.tags %}<span class="pub-keyword-badge">{{ tag }}</span>{% endfor %}
+        </div>
+        <div class="pub-links">
+          {% if link.pdf %} <a href="{{ link.pdf }}" target="_blank">[Paper]</a> {% endif %}
+          {% if link.slides %} <a href="{{ link.slides }}" target="_blank">[Slides]</a> {% endif %}
+          {% if link.code %} <a href="{{ link.code }}" target="_blank">[Code]</a> {% endif %}
+          {% if link.page %} <a href="{{ link.page }}" target="_blank">[Project Page]</a> {% endif %}
+          {% if link.bibtex %} <a href="{{ link.bibtex }}" target="_blank">[BibTex]</a> {% endif %}
+          {% if link.others %} <span style="font-size: 13px; color: #6b7280;">{{ link.others }}</span> {% endif %}
+        </div>
       </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">[Paper]</a>
-      {% endif %}
-      {% if link.slides %} 
-      <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">[Slides]</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
-  </div>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 
-</li>
-<br>
+<script>
+function switchPubTab(evt, tabId) {
+  // 1. 隐藏所有 tab 内容
+  var tabContents = document.getElementsByClassName("pub-tab-content");
+  for (var i = 0; i < tabContents.length; i++) {
+    tabContents[i].style.display = "none";
+    tabContents[i].classList.remove("active");
+  }
 
-{% endfor %}
+  // 2. 取消所有按钮的选中状态 (移除 active 类)
+  var tabBtns = document.getElementsByClassName("pub-tab-btn");
+  for (var i = 0; i < tabBtns.length; i++) {
+    tabBtns[i].className = tabBtns[i].className.replace(" active", "");
+  }
 
-</ol>
-</div>
+  // 3. 显示被点击的 tab 内容，并高亮按钮
+  document.getElementById(tabId).style.display = "block";
+  document.getElementById(tabId).classList.add("active");
+  evt.currentTarget.className += " active";
+}
+</script>

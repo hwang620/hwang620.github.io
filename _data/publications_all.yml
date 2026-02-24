@@ -4,12 +4,35 @@ main:
       conference_short: SenSys '26
       conference: ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems
       notes: CCF-B
+      type: CONFERENCE
+
+    - title: "One is Enough: Bringing Trusted Computing to Low-end IoT Devices"
+      authors: 	Chong Zhang, Lihu Zhou, Chuanhui Zhang, Xiao Zhang, Huaiyu Yang, Xiaojun Zhang, Yan Chen, and <strong>Han Wang* (Corresponding Author)</strong>
+      conference_short: TMC 
+      conference: IEEE Transactions on Mobile Computing (TMC), 2026, Under Major Revision
+      notes: CCF-A
+      type: JOURNAL
+
+    - title: "PABT: A Cost-Efficient Trustworthy Sensing Architecture with Physics-Augmented Spatiotemporal Inference for IoT Systems"
+      authors: Chong Zhang, Xin Shi, Xiaojun Zhang, Rang Zhou, Yufei Xiang, Yang Wang, and <strong>Han Wang</strong> 
+      conference_short: TC
+      conference: IEEE Transactions on Computers (TC), 2026, Under Major Revision 
+      notes: CCF-A
+      type: JOURNAL
+
+    - title: "Bringing LoRa Downlink to Backscatter Devices"
+      authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Chong Zhang, Songfan Li, Shuwei Wu, Ruizhe Zhang, and Li Lu 
+      conference_short: ToN
+      conference: IEEE Transactions on Networking (ToN), 2025
+      notes: CCF-A
+      type: JOURNAL
 
     - title: "Baro2Talk: Reconstructing Spectrograms from Ear Canal Pressure for Voice-free Communication"
       authors: Luo Zhou, Shan Chang, <strong>Han Wang</strong>, Xianbo Wang, and Hongzi Zhu
       conference_short: INFOCOM '26
       conference: IEEE International Conference on Computer Communications
       notes: CCF-A
+      type: CONFERENCE
 
     - title: "LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems"
       authors: Chong Zhang, <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, and Li Lu
@@ -17,12 +40,14 @@ main:
       conference: The 23rd ACM International Conference on Mobile Systems, Applications, and Services
       pdf: ./assets/files/LEGO+_mobisys25.pdf
       notes: CCF-B
+      type: CONFERENCE
 
     - title: "Cupid: Empowering Reliable Collaboration for Intermittent Computing Nodes"
       authors: Yize Zhao, Chong Zhang, Zetao Gao, <strong>Han Wang</strong>, Qianhe Meng, and Li Lu
       conference_short: ICC '25
       conference: IEEE International Conference on Communications
       notes: CCF-C
+      type: CONFERENCE
 
     - title: "Sisyphus: Redefining Low Power for LoRa Receiver"
       authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Zetao Gao, Chong Zhang, and Li Lu
@@ -33,6 +58,7 @@ main:
 #    bibtex: https://bib.yliu.me/MICCAI23.txt
     # image: ./assets/img/teaser_sisyphus.png
       notes: CCF-A
+      type: CONFERENCE
 
     - title: "Processor-Sharing Internet of Things Architecture for Large-Scale Deployment"
       authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu
@@ -44,6 +70,22 @@ main:
 #    bibtex: https://bib.yliu.me/MICCAI23.txt
 #    image: ./assets/img/teaser_example_2.png
       notes: CCF-B, Best Paper Award, ACM SIGMOBILE Research Highlight
+      type: CONFERENCE
+
+    - title: "Embedding Chips Over the Air: Rethink IoT Architecture for Ubiquitous Sensing"
+      authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu 
+      conference_short: TMC
+      conference: IEEE Transactions on Mobile Computing (TMC), 2025
+      notes: CCF-A
+      type: JOURNAL
+
+    - title: "MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization"
+      authors: Xinyu Tong, <strong>Han Wang</strong>, Xiulong Liu, and Wenyu Qu 
+      conference_short: TMC
+      conference: IEEE Transactions on Mobile Computing (TMC), 2021
+      notes: CCF-A
+      type: JOURNAL
+      
 
     
 
