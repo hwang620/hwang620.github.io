@@ -23,14 +23,6 @@ main:
       notes: CCF-A
       type: JOURNAL
 
-    - title: "Bringing LoRa Downlink to Backscatter Devices"
-      authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Chong Zhang, Songfan Li, Shuwei Wu, Ruizhe Zhang, and Li Lu 
-      conference_short: ToN
-      conference: IEEE Transactions on Networking (ToN)
-      year: 2025
-      notes: CCF-A
-      type: JOURNAL
-
     - title: "Baro2Talk: Reconstructing Spectrograms from Ear Canal Pressure for Voice-free Communication"
       authors: Luo Zhou, Shan Chang, <strong>Han Wang</strong>, Xianbo Wang, and Hongzi Zhu
       conference_short: INFOCOM '26
@@ -38,6 +30,14 @@ main:
       year: 2026
       notes: CCF-A
       type: CONFERENCE
+
+    - title: "Bringing LoRa Downlink to Backscatter Devices"
+      authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Chong Zhang, Songfan Li, Shuwei Wu, Ruizhe Zhang, and Li Lu 
+      conference_short: ToN
+      conference: IEEE Transactions on Networking (ToN)
+      year: 2025
+      notes: CCF-A
+      type: JOURNAL
 
     - title: "LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems"
       authors: Chong Zhang, <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, and Li Lu
@@ -66,6 +66,14 @@ main:
       notes: CCF-A
       type: CONFERENCE
 
+    - title: "Embedding Chips Over the Air: Rethink IoT Architecture for Ubiquitous Sensing"
+      authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu 
+      conference_short: TMC
+      conference: IEEE Transactions on Mobile Computing (TMC)
+      year: 2025
+      notes: CCF-A
+      type: JOURNAL
+
     - title: "Processor-Sharing Internet of Things Architecture for Large-Scale Deployment"
       authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu
       conference_short: SenSys '24
@@ -78,14 +86,7 @@ main:
       award: "Best Paper Award"  
       others: "ACM SIGMOBILE Research Highlight" 
 
-    - title: "Embedding Chips Over the Air: Rethink IoT Architecture for Ubiquitous Sensing"
-      authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu 
-      conference_short: TMC
-      conference: IEEE Transactions on Mobile Computing (TMC)
-      year: 2025
-      notes: CCF-A
-      type: JOURNAL
-
+    
     - title: "MapFi: Autonomous Mapping of Wi-Fi Infrastructure for Indoor Localization"
       authors: Xinyu Tong, <strong>Han Wang</strong>, Xiulong Liu, and Wenyu Qu 
       conference_short: TMC
