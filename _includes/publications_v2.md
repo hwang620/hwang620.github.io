@@ -66,8 +66,9 @@
     border-bottom: 1px dotted #e5e7eb;
   }
 
+  /* 左侧红底标签栏：略微加宽以适应会议名称 */
   .pub-badge-col {
-    flex: 0 0 75px;
+    flex: 0 0 90px; 
     display: flex;
     justify-content: flex-start;
     padding-top: 2px;
@@ -76,7 +77,7 @@
   .pub-ccf-badge {
     background-color: #f1404b;
     color: white;
-    padding: 3px 10px;
+    padding: 3px 8px;
     border-radius: 4px;
     font-weight: 800;
     font-size: 13px;
@@ -198,7 +199,7 @@
     {% for link in site.data.publications_selected.main %}
     <li class="pub-item">
       <div class="pub-badge-col">
-        {% if link.notes %}<div class="pub-ccf-badge">{{ link.notes | replace: "-", " " }}</div>{% endif %}
+        {% if link.conference_short %}<div class="pub-ccf-badge">{{ link.conference_short }}</div>{% endif %}
       </div>
       <div class="pub-content-col">
         <div class="pub-title">
@@ -221,8 +222,10 @@
         {% endif %}
     
         <div class="pub-tags-row">
-          <span class="pub-venue-badge">{{ link.conference_short }}</span>
-          {% if link.type %}<span class="pub-type-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-type-badge">CONFERENCE</span>{% endif %}
+          {% if link.type %}<span class="pub-venue-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-venue-badge">CONFERENCE</span>{% endif %}
+          
+          {% if link.notes %}<span class="pub-type-badge">{{ link.notes | replace: "-", " " }}</span>{% endif %}
+          
           {% for tag in link.tags %}<span class="pub-keyword-badge">{{ tag }}</span>{% endfor %}
         </div>
         
@@ -246,7 +249,7 @@
     {% for link in site.data.publications_all.main %}
     <li class="pub-item">
       <div class="pub-badge-col">
-        {% if link.notes %}<div class="pub-ccf-badge">{{ link.notes | replace: "-", " " }}</div>{% endif %}
+        {% if link.conference_short %}<div class="pub-ccf-badge">{{ link.conference_short }}</div>{% endif %}
       </div>
       <div class="pub-content-col">
         <div class="pub-title">
@@ -269,8 +272,10 @@
         {% endif %}
     
         <div class="pub-tags-row">
-          <span class="pub-venue-badge">{{ link.conference_short }}</span>
-          {% if link.type %}<span class="pub-type-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-type-badge">CONFERENCE</span>{% endif %}
+          {% if link.type %}<span class="pub-venue-badge">{{ link.type | upcase }}</span>{% else %}<span class="pub-venue-badge">CONFERENCE</span>{% endif %}
+          
+          {% if link.notes %}<span class="pub-type-badge">{{ link.notes | replace: "-", " " }}</span>{% endif %}
+          
           {% for tag in link.tags %}<span class="pub-keyword-badge">{{ tag }}</span>{% endfor %}
         </div>
         
@@ -290,20 +295,17 @@
 
 <script>
 function switchPubTab(evt, tabId) {
-  // 1. 隐藏所有 tab 内容
   var tabContents = document.getElementsByClassName("pub-tab-content");
   for (var i = 0; i < tabContents.length; i++) {
     tabContents[i].style.display = "none";
     tabContents[i].classList.remove("active");
   }
 
-  // 2. 取消所有按钮的选中状态 (移除 active 类)
   var tabBtns = document.getElementsByClassName("pub-tab-btn");
   for (var i = 0; i < tabBtns.length; i++) {
     tabBtns[i].className = tabBtns[i].className.replace(" active", "");
   }
 
-  // 3. 显示被点击的 tab 内容，并高亮按钮
   document.getElementById(tabId).style.display = "block";
   document.getElementById(tabId).classList.add("active");
   evt.currentTarget.className += " active";
