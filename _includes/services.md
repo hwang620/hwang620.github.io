@@ -8,8 +8,8 @@
 
 <h4 style="margin: 10px 0px 8px; color: #1f2937; font-weight: 600;">Program Committee Member</h4>
 <ul style="margin-bottom: 20px; line-height: 1.6;">
-  <li>Artifact Evaluation Committee (AEC), <em>ACM MobiCom</em> <strong>[2025]</strong></li>
-  <li>Artifact Evaluation Committee (AEC), <em>ACM MobiSys</em> <strong>[2025]</strong></li>
+  <li>Artifact Evaluation Committee, <em>ACM MobiCom</em> <strong>[2025]</strong></li>
+  <li>Artifact Evaluation Committee, <em>ACM MobiSys</em> <strong>[2025-2026]</strong></li>
 </ul>
 
 <h4 style="margin: 10px 0px 8px; color: #1f2937; font-weight: 600;">Journal Reviewer</h4>
