@@ -13,6 +13,34 @@ layout: homepage
     font-weight: bold;
     color: #031b4e;
   }
+
+  .news-list {
+    margin-bottom: 8px;
+  }
+
+  .news-extra {
+    display: none;
+  }
+
+  .news-list.expanded .news-extra {
+    display: list-item;
+  }
+
+  .news-toggle {
+    margin: 0 0 8px 20px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #21409a;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .news-toggle:hover {
+    text-decoration: underline;
+  }
 </style>
 
 <h2 class="section-header">
@@ -46,12 +74,31 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, currently pursuing my Ph
   News
 </h2>
 
-- **<font color="3A5FCD" face="Georgia">[Jul. 2026]</font>** Our paper ***'Hades'*** on runtime-free energy admission has been accepted to **MICRO '26**.
-- **<font color="3A5FCD" face="Georgia">[Oct. 2025]</font>** Our paper ***'μMan'*** on device-agnostic energy management for battery-free IoT has been accepted to **SenSys '26**.
-- **<font color="3A5FCD" face="Georgia">[Apr. 2025]</font>** Our paper ***'LEGO+'*** on comprehensive redundancy removal for IoT sensing systems has been accepted to **MobiSys '25**.
-- **<font color="3A5FCD" face="Georgia">[Nov. 2024]</font>** 🎉 Our paper ***'RFBus'*** won the [BEST PAPER AWARD](https://sensys.acm.org/2024/award/) at **SenSys '24**! (1 out of 313 submissions).
-- **<font color="3A5FCD" face="Georgia">[Sep. 2024]</font>** Our paper ***'RFBus'*** introducing a low-cost IoT system architecture has been accepted to **SenSys '24**.
-- **<font color="3A5FCD" face="Georgia">[Aug. 2024]</font>** Our paper ***'Sisyphus'*** on low-power LoRa receivers has been accepted to **MobiCom '24**.
+<ul id="news-list" class="news-list">
+  <li><strong><font color="3A5FCD" face="Georgia">[Jul. 2026]</font></strong> Our paper <strong><em>'Hades'</em></strong> on runtime-free energy admission has been accepted to <strong>MICRO '26</strong>.</li>
+  <li><strong><font color="3A5FCD" face="Georgia">[Oct. 2025]</font></strong> Our paper <strong><em>'μMan'</em></strong> on device-agnostic energy management for battery-free IoT has been accepted to <strong>SenSys '26</strong>.</li>
+  <li><strong><font color="3A5FCD" face="Georgia">[Apr. 2025]</font></strong> Our paper <strong><em>'LEGO+'</em></strong> on comprehensive redundancy removal for IoT sensing systems has been accepted to <strong>MobiSys '25</strong>.</li>
+  <li class="news-extra"><strong><font color="3A5FCD" face="Georgia">[Nov. 2024]</font></strong> 🎉 Our paper <strong><em>'RFBus'</em></strong> won the <a href="https://sensys.acm.org/2024/award/">BEST PAPER AWARD</a> at <strong>SenSys '24</strong>! (1 out of 313 submissions).</li>
+  <li class="news-extra"><strong><font color="3A5FCD" face="Georgia">[Sep. 2024]</font></strong> Our paper <strong><em>'RFBus'</em></strong> introducing a low-cost IoT system architecture has been accepted to <strong>SenSys '24</strong>.</li>
+  <li class="news-extra"><strong><font color="3A5FCD" face="Georgia">[Aug. 2024]</font></strong> Our paper <strong><em>'Sisyphus'</em></strong> on low-power LoRa receivers has been accepted to <strong>MobiCom '24</strong>.</li>
+</ul>
+
+<button id="news-toggle" class="news-toggle" type="button" aria-expanded="false" aria-controls="news-list">More</button>
+
+<script>
+  (function () {
+    var newsList = document.getElementById('news-list');
+    var toggleButton = document.getElementById('news-toggle');
+
+    if (!newsList || !toggleButton) return;
+
+    toggleButton.addEventListener('click', function () {
+      var expanded = newsList.classList.toggle('expanded');
+      toggleButton.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      toggleButton.textContent = expanded ? 'Less' : 'More';
+    });
+  })();
+</script>
 
 {% include_relative _includes/honors.md %} 
 
