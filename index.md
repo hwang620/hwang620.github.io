@@ -31,14 +31,16 @@ layout: homepage
     padding: 0;
     border: none;
     background: transparent;
-    color: #21409a;
-    font-family: Georgia, serif;
-    font-size: 15px;
-    font-weight: bold;
+    color: #7a7a7a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
     cursor: pointer;
   }
 
   .news-toggle:hover {
+    color: #5f5f5f;
     text-decoration: underline;
   }
 </style>
