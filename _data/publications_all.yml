@@ -4,7 +4,7 @@ main:
       conference_short: MICRO '26
       conference: The 59th IEEE/ACM International Symposium on Microarchitecture
       year: 2026
-      #pdf: ./assets/files/Sisyphus_mobicom24.pdf
+      pdf: ./assets/files/Hades_micro26.pdf
       #slides: ./assets/files/Sisyphus_slides.pdf
 #     bibtex: https://bib.yliu.me/MICCAI23.txt
     # image: ./assets/img/teaser_sisyphus.png

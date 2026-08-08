@@ -4,7 +4,7 @@ main:
       conference_short: MICRO '26
       conference: The 59th IEEE/ACM International Symposium on Microarchitecture
       year: 2026
-      #pdf: ./assets/files/Sisyphus_mobicom24.pdf
+      pdf: ./assets/files/Hades_micro26.pdf
       #slides: ./assets/files/Sisyphus_slides.pdf
 #     bibtex: https://bib.yliu.me/MICCAI23.txt
     # image: ./assets/img/teaser_sisyphus.png
@@ -32,6 +32,23 @@ main:
       notes: CCF-A
       type: JOURNAL
 
+    - title: "μMan: Towards Device-Agnostic Power Management for Battery-free IoT"
+      authors: Chong Zhang,  <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Shengyu Li, Songfan Li, Zetao Gao, Li Lu, and Hongzi Zhu
+      conference_short: SenSys '26
+      conference: ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems
+      year: 2026
+      notes: CCF-B
+      type: CONFERENCE
+
+    - title: "LEGO+: Redefining the Redundancy Removal for IoT Sensing Edge-End Systems"
+      authors: Chong Zhang, <strong>Han Wang</strong>, Qianhe Meng, Yize Zhao, Yihang Song, Kanglin Xu, Jinzhe Li, and Li Lu
+      conference_short: MobiSys '25
+      conference: The 23rd ACM International Conference on Mobile Systems, Applications, and Services
+      year: 2025
+      pdf: ./assets/files/LEGO+_mobisys25.pdf
+      notes: CCF-B
+      type: CONFERENCE
+      
     - title: "Processor-Sharing Internet of Things Architecture for Large-Scale Deployment"
       authors: Qianhe Meng, <strong>Han Wang</strong>, Chong Zhang, Yihang Song, Songfan Li, Li Lu, and Hongzi Zhu
       conference_short: SenSys '24

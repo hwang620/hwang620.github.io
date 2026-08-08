@@ -93,7 +93,7 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, currently pursuing my Ph
     var toggleButton = document.getElementById('news-toggle');
 
     if (!newsList || !toggleButton) return;
-
+    
     toggleButton.addEventListener('click', function () {
       var expanded = newsList.classList.toggle('expanded');
       toggleButton.setAttribute('aria-expanded', expanded ? 'true' : 'false');
