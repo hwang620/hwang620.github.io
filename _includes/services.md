@@ -5,9 +5,9 @@
   </svg>
   Services
 </h2>
-
 <h4 style="margin: 10px 0px 8px; color: #1f2937; font-weight: 600;">Program Committee Member</h4>
 <ul style="margin-bottom: 20px; line-height: 1.6;">
+  <li>Artifact Evaluation Committee, <em>IEEE/ACM MICRO</em> <strong>[2026]</strong></li>
   <li>Artifact Evaluation Committee, <em>ACM MobiCom</em> <strong>[2025]</strong></li>
   <li>Artifact Evaluation Committee, <em>ACM MobiSys</em> <strong>[2025-2026]</strong></li>
 </ul>
@@ -16,6 +16,6 @@
 <ul style="margin-bottom: 20px; line-height: 1.6;">
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755" target="_blank">IEEE Transactions on Mobile Computing (TMC)</a> <strong>[2024, 2025]</strong></li>
   <li><a href="https://ieee-iotj.org/" target="_blank">IEEE Internet of Things Journal (IoT-J)</a> <strong>[2025]</strong></li>
-  <li><a href="https://jmir.org/" target="_blank">Journal of Medical Internet Research (JMIR)</a> <strong>[2025]</strong></li>
+  <li><a href="https://jmir.org/" target="_blank">Journal of Medical Internet Research (JMIR)</a> <strong>[2025-2026]</strong></li>
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361" target="_blank">IEEE Sensors Journal</a> <strong>[2024]</strong></li>
 </ul>
