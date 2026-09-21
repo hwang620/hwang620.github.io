@@ -63,7 +63,7 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, currently pursuing my Ph
   Research Interests
 </h2>
 
-- **AI Infra:** I presently focus on building efficient AI infrastructure by rethinking how computation, memory, and communication resources are managed across the system stack, with the goal of reducing overhead and improving real hardware utilization.
+- **AI Infra:** I currently focus on building efficient AI infrastructure, with particular interest in—but not limited to—on-device serving, by rethinking how computation, memory, and communication resources are orchestrated across the system stack to reduce overhead and improve hardware utilization.
 - **Wireless and RFIC:** I am also dedicated to exploring ultra-low-power communication paradigms and their CMOS-enabled implementations, aiming to enable practical, ubiquitous wireless connectivity for everyday objects.
 
 <h2 class="section-header">
