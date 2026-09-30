@@ -64,7 +64,7 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, currently pursuing my Ph
 </h2>
 
 - **AI Infra:** I currently focus on building efficient AI infrastructure through hardware-software co-design, with particular interest in edge/on-device LLM training and serving, by rethinking how computation, memory, and communication resources are orchestrated across the system stack to reduce overhead and improve hardware utilization.
-- **Wireless and RFIC:** I am also dedicated to exploring ultra-low-power communication paradigms and their CMOS-enabled implementations, aiming to enable practical, ubiquitous wireless connectivity for everyday objects.
+- **Wireless and RFIC:** I am also dedicated to exploring ultra-low-power wireless networking systems and their CMOS-enabled implementations, aiming to weave practical, ubiquitous wireless connectivity for everyday objects.
 
 <h2 class="section-header">
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21409a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
