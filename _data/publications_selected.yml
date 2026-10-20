@@ -24,6 +24,18 @@ main:
       notes: CCF-A
       type: CONFERENCE
 
+    - title: "PAuth: Identifying the Missing Link in Trustworthy Tiny IoT"
+      authors: <strong>Han Wang</strong>, Chong Zhang, Qianhe Meng, and Li Lu
+      conference_short: TDSC
+      conference: IEEE Transactions on Dependable and Secure Computing (TDSC)
+      year: 2026
+      # pdf: ./assets/files/Hades_micro26.pdf
+      #slides: ./assets/files/Sisyphus_slides.pdf
+#     bibtex: https://bib.yliu.me/MICCAI23.txt
+    # image: ./assets/img/teaser_sisyphus.png
+      notes: CCF-A
+      type: JOURNAL
+
     - title: "Bringing LoRa Downlink to Backscatter Devices"
       authors: <strong>Han Wang</strong>, Yihang Song, Qianhe Meng, Chong Zhang, Songfan Li, Shuwei Wu, Ruizhe Zhang, and Li Lu 
       conference_short: ToN
