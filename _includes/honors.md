@@ -5,7 +5,8 @@
   </svg>
   Honors & Awards
 </h2>
-
 <ul>
-  <li><strong>Best Paper Award</strong> at <em>ACM SenSys 2024</em></li>
+  <li><strong>Best Paper Award</strong> @ <em>ACM SenSys 2024</em></li>
+  <li><strong>First-Class Academic Scholarship</strong> (Outstanding Graduate Student) @ <em>UESTC</em></li>
 </ul>
+
