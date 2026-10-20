@@ -7,6 +7,6 @@
 </h2>
 <ul>
   <li><strong>Best Paper Award</strong> @ <em>ACM SenSys 2024</em></li>
-  <li><strong>First-Class Academic Scholarship</strong> (Outstanding Graduate Student) @ <em>UESTC</em></li>
+  <li><strong>First-Class Academic Scholarship</strong> (Outstanding Graduate Student) @ <em>UESTC</em>, 2023, 2025, 2026</li>
 </ul>
 
