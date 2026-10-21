@@ -6,7 +6,7 @@
   Honors & Awards
 </h2>
 <ul>
-  <li>CAST Young Science and Technology Talent Cultivation Program - Doctoral Student Special Plan</strong> (中国科协青年科技人才培育工程博士生专项计划)</li>
+  <li><strong>CAST Young Science and Technology Talent Cultivation Program - Doctoral Student Special Plan</strong> (中国科协青年科技人才培育工程博士生专项计划)</li>
   <li><strong>Best Paper Award</strong> @ <em>ACM SenSys 2024</em></li>
   <li><strong>First-Class Academic Scholarship</strong> (Outstanding Graduate Student) @ <em>UESTC</em>, 2023, 2025, 2026</li>
 </ul>
