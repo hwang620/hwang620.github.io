@@ -75,8 +75,8 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, currently pursuing my Ph
   </svg>
   News
 </h2>
-
 <ul id="news-list" class="news-list">
+  <li><strong><font color="3A5FCD" face="Georgia">[Oct. 2026]</font></strong> Selected for <strong>CAST Young Science and Technology Talent Cultivation Program - Doctoral Student Special Plan</strong> (中国科协青年科技人才培育工程博士生专项计划) !</li>
   <li><strong><font color="3A5FCD" face="Georgia">[Jul. 2026]</font></strong> Our paper <strong><em>'Hades'</em></strong> on runtime-free energy admission has been accepted to <strong>MICRO '26</strong>.</li>
   <li><strong><font color="3A5FCD" face="Georgia">[Oct. 2025]</font></strong> Our paper <strong><em>'μMan'</em></strong> on device-agnostic energy management for battery-free IoT has been accepted to <strong>SenSys '26</strong>.</li>
   <li><strong><font color="3A5FCD" face="Georgia">[Apr. 2025]</font></strong> Our paper <strong><em>'LEGO+'</em></strong> on comprehensive redundancy removal for IoT sensing systems has been accepted to <strong>MobiSys '25</strong>.</li>
@@ -84,6 +84,7 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, currently pursuing my Ph
   <li class="news-extra"><strong><font color="3A5FCD" face="Georgia">[Sep. 2024]</font></strong> Our paper <strong><em>'RFBus'</em></strong> introducing a low-cost IoT system architecture has been accepted to <strong>SenSys '24</strong>.</li>
   <li class="news-extra"><strong><font color="3A5FCD" face="Georgia">[Aug. 2024]</font></strong> Our paper <strong><em>'Sisyphus'</em></strong> on low-power LoRa receivers has been accepted to <strong>MobiCom '24</strong>.</li>
 </ul>
+
 
 <button id="news-toggle" class="news-toggle" type="button" aria-expanded="false" aria-controls="news-list">More</button>
 
