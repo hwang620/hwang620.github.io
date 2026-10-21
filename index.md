@@ -83,7 +83,9 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, currently pursuing my Ph
   <li class="news-extra"><strong><font color="3A5FCD" face="Georgia">[Nov. 2024]</font></strong> 🎉 Our paper <strong><em>'RFBus'</em></strong> won the <a href="https://sensys.acm.org/2024/award/">BEST PAPER AWARD</a> at <strong>SenSys '24</strong>! (1 out of 313 submissions).</li>
   <li class="news-extra"><strong><font color="3A5FCD" face="Georgia">[Sep. 2024]</font></strong> Our paper <strong><em>'RFBus'</em></strong> introducing a low-cost IoT system architecture has been accepted to <strong>SenSys '24</strong>.</li>
   <li class="news-extra"><strong><font color="3A5FCD" face="Georgia">[Aug. 2024]</font></strong> Our paper <strong><em>'Sisyphus'</em></strong> on low-power LoRa receivers has been accepted to <strong>MobiCom '24</strong>.</li>
+  <li class="news-extra"><strong><font color="3A5FCD" face="Georgia">[Aug. 2024]</font></strong> Website is Live.</li>
 </ul>
+
 
 
 <button id="news-toggle" class="news-toggle" type="button" aria-expanded="false" aria-controls="news-list">More</button>
