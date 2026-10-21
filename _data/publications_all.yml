@@ -1,15 +1,15 @@
 main:
-    - title: "PAuth: Identifying the Missing Link in Trustworthy Tiny IoT"
-      authors: <strong>Han Wang</strong>, Chong Zhang, Qianhe Meng, and Li Lu
-      conference_short: TDSC
-      conference: IEEE Transactions on Dependable and Secure Computing (TDSC)
-      year: 2026
-      # pdf: ./assets/files/Hades_micro26.pdf
-      #slides: ./assets/files/Sisyphus_slides.pdf
-#     bibtex: https://bib.yliu.me/MICCAI23.txt
-    # image: ./assets/img/teaser_sisyphus.png
-      notes: CCF-A
-      type: JOURNAL
+#     - title: "PAuth: Identifying the Missing Link in Trustworthy Tiny IoT"
+#       authors: <strong>Han Wang</strong>, Chong Zhang, Qianhe Meng, and Li Lu
+#       conference_short: TDSC
+#       conference: IEEE Transactions on Dependable and Secure Computing (TDSC)
+#       year: 2026
+#       # pdf: ./assets/files/Hades_micro26.pdf
+#       #slides: ./assets/files/Sisyphus_slides.pdf
+# #     bibtex: https://bib.yliu.me/MICCAI23.txt
+#     # image: ./assets/img/teaser_sisyphus.png
+#       notes: CCF-A
+#       type: JOURNAL
     
     - title: "Hades: A Hardware-Resident Substrate for Energy Admission in Intermittent Computing"
       authors: <strong>Han Wang</strong>, Chong Zhang, Qianhe Meng, Yize Zhao, Ruizhe Zhang, and Li Lu
