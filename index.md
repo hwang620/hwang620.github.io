@@ -52,8 +52,7 @@ layout: homepage
   </svg>
   About Me
 </h2>
-
-Welcome! I am **<font face="Georgia">Han Wang</font>**, currently pursuing my Ph.D. at the School of Computer Science and Engineering, [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/). I initially joined UESTC as a master's student before transitioning directly into the Ph.D. program, where I am fortunate to be advised by Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I received my B.S. in Computer Science and Technology from [Tianjin University](https://en.tju.edu.cn/) in 2022, where I appreciated the mentorship of Assoc. Prof. [Xinyu Tong](https://tjutxy.com/). My research broadly focuses on *ubiquitous infrastructure for AI systems*.
+Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. student in the School of Computer Science and Engineering at the [University of Electronic Science and Technology of China (UESTC)](https://en.uestc.edu.cn/), advised by Prof. [Li Lu](https://www.en.scse.uestc.edu.cn/info/1085/2182.htm). I joined UESTC as a master's student before continuing into the Ph.D. program. Prior to that, I received my B.S. in Computer Science and Technology from [Tianjin University](https://en.tju.edu.cn/) in 2022, where I was mentored by Assoc. Prof. [Xinyu Tong](https://tjutxy.com/). My research broadly focuses on *ubiquitous infrastructure for AI systems*.
 
 <h2 class="section-header">
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21409a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -63,7 +62,7 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, currently pursuing my Ph
   Research Interests
 </h2>
 
-- **AI Infra:** I currently focus on building efficient AI infrastructure through hardware-software co-design, with particular interest in edge/on-device LLM training and serving, by rethinking how computation, memory, and communication resources are orchestrated across the system stack to reduce overhead and improve hardware utilization.
+- **AI Infra:** My research focuses on building efficient AI infrastructure through hardware-software co-design, with particular emphasis on accelerating large language model (LLM) inference and serving. I explore emerging architectures and computing paradigms, including **3D-stacked memory, near-memory computing, and hybrid digital-analog computing**, to reduce data movement overhead, improve hardware utilization, and enable more efficient LLM serving systems.
 - **Wireless and RFIC:** I am also dedicated to exploring ultra-low-power wireless networking systems and their CMOS-enabled implementations, aiming to weave practical, ubiquitous wireless connectivity for everyday objects.
 
 <h2 class="section-header">
