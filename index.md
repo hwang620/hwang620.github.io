@@ -72,8 +72,14 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
   Research Interests
 </h2>
 
-- **AI Infra:** My research focuses on building efficient AI infrastructure through hardware-software co-design, with particular emphasis on accelerating large language model (LLM) inference and serving. I explore emerging architectures and computing paradigms, including **3D-stacked memory, near-memory computing, and hybrid digital-analog computing**, to reduce data movement overhead, improve hardware utilization, and enable more efficient LLM serving systems.
-- **Wireless and RFIC:** I am also dedicated to exploring ultra-low-power wireless networking systems and their CMOS-enabled implementations, aiming to weave practical, ubiquitous wireless connectivity for everyday objects.
+**My research goal is to build efficient and ubiquitous infrastructure for intelligent computing and connected devices.** I am interested in hardware-software co-design across AI systems and the Internet of Things (IoT), from accelerating large language model (LLM) inference and serving to enabling communication and computation under tight energy constraints.
+
+For AI infrastructure, I explore architectures and computing paradigms such as 3D-stacked memory, near-memory computing, and hybrid digital-analog computing to reduce data movement and improve hardware utilization. In low-power IoT, my work includes energy admission for intermittent computing (see [Hades](./assets/files/Hades_micro26.pdf)) and low-power LoRa reception (see [Sisyphus](./assets/files/Sisyphus_mobicom24.pdf)). I have also collaborated on a processor-sharing architecture for scalable IoT deployments (see [RFBus](./assets/files/RFBUS_sensys24.pdf)).
+
+Keywords related to my research include:
+
+- **AI Infrastructure:** LLM inference and serving, hardware-software co-design, 3D-stacked memory, near-memory computing, hybrid digital-analog computing
+- **Low-Power IoT:** LoRa, backscatter, battery-free devices, intermittent computing, wireless and RFIC
 
 <h2 class="section-header">
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21409a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
