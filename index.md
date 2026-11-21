@@ -125,35 +125,6 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
 
 {% include_relative _includes/services.md %} 
 
-<style>
-  .visitor-map-card {
-    box-sizing: border-box;
-    width: min(100%, 328px);
-    margin: 0 0 24px auto;
-    padding: 12px;
-    border: 1px solid #d8e1eb;
-    border-radius: 12px;
-    background: #f8fafc;
-    text-align: center;
-  }
-  .visitor-map-card iframe,
-  .visitor-map-card img {
-    max-width: 100%;
-  }
-  .visitor-map-caption {
-    margin: 8px 0 0;
-    color: #64748b;
-    font: 13px/1.4 Arial, Helvetica, sans-serif;
-  }
-  html[data-theme="dark"] .visitor-map-card {
-    border-color: #3c4b60;
-    background: #272d3b;
-  }
-  html[data-theme="dark"] .visitor-map-caption {
-    color: #b5c5d8;
-  }
-</style>
-
 <h2 class="section-header">
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21409a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <circle cx="12" cy="12" r="10"></circle>
@@ -161,7 +132,6 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
   </svg>
   Global Visitors Map
 </h2>
-<div class="visitor-map-card">
-  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=e7dac8&amp;w=300&amp;t=tt&amp;d=dZDFRE7T3LbcM9LXXNLvSil6KjVs5AE_jr1S3WX-IXA&amp;co=2d2ead&amp;cmo=980808&amp;cmn=047434"></script>
-  <p class="visitor-map-caption">Approximate visitor locations based on IP addresses.</p>
+<div style="max-width: 300px; margin: 0 0 24px auto;">
+  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=fbf7f3&amp;w=300&amp;t=tt&amp;d=dZDFRE7T3LbcM9LXXNLvSil6KjVs5AE_jr1S3WX-IXA&amp;co=131479&amp;cmo=980808&amp;cmn=047434"></script>
 </div>
