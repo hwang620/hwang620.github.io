@@ -128,26 +128,13 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
 <style>
   .visitor-map-card {
     box-sizing: border-box;
-    width: min(100%, 388px);
+    width: min(100%, 328px);
     margin: 0 0 24px auto;
     padding: 12px;
     border: 1px solid #d8e1eb;
     border-radius: 12px;
     background: #f8fafc;
     text-align: center;
-  }
-  /* The map widget adds its own right margin and absolutely positioned image. */
-  .visitor-map-card > span {
-    position: relative;
-    display: block !important;
-    max-width: 100%;
-    margin: 0 auto !important;
-    overflow: hidden;
-    text-align: left;
-  }
-  .visitor-map-card > span > img {
-    top: 0;
-    left: 0;
   }
   .visitor-map-card iframe,
   .visitor-map-card img {
@@ -175,7 +162,6 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
   Global Visitors Map
 </h2>
 <div class="visitor-map-card">
-  <script id="_wau___">var _wau = _wau || []; var mapWidth = Math.min(360, Math.max(1, document.currentScript.parentElement.clientWidth - 24)); _wau.push(["map", "f9hrxdsxaa", "___", String(mapWidth), String(Math.round(mapWidth / 2)), "night", "cross-pink"]);</script>
-  <script async src="https://waust.at/m.js"></script>
+  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=e7dac8&amp;w=300&amp;t=tt&amp;d=dZDFRE7T3LbcM9LXXNLvSil6KjVs5AE_jr1S3WX-IXA&amp;co=2d2ead&amp;cmo=980808&amp;cmn=047434"></script>
   <p class="visitor-map-caption">Approximate visitor locations based on IP addresses.</p>
 </div>
