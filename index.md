@@ -125,6 +125,43 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
 
 {% include_relative _includes/services.md %} 
 
-<br>
+<style>
+  .visitor-map-card {
+    box-sizing: border-box;
+    width: min(100%, 388px);
+    margin: 0 0 24px auto;
+    padding: 12px;
+    border: 1px solid #d8e1eb;
+    border-radius: 12px;
+    background: #f8fafc;
+    text-align: center;
+  }
+  .visitor-map-card iframe,
+  .visitor-map-card img {
+    max-width: 100%;
+  }
+  .visitor-map-caption {
+    margin: 8px 0 0;
+    color: #64748b;
+    font: 13px/1.4 Arial, Helvetica, sans-serif;
+  }
+  html[data-theme="dark"] .visitor-map-card {
+    border-color: #3c4b60;
+    background: #272d3b;
+  }
+  html[data-theme="dark"] .visitor-map-caption {
+    color: #b5c5d8;
+  }
+</style>
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=tt&d=tf6trRht7T5GWabkmifch2uaHHA47Ixj-cwebHXvmBk&co=283687&ct=ffffff&cmo=fa0303&cmn=20ba4c'></script>
+<h2 class="section-header">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21409a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="10"></circle>
+    <path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"></path>
+  </svg>
+  Global Visitors Map
+</h2>
+<div class="visitor-map-card">
+  <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=360&amp;t=tt&amp;d=tf6trRht7T5GWabkmifch2uaHHA47Ixj-cwebHXvmBk&amp;co=2b4c6f&amp;ct=ffffff&amp;cmo=3eb7f0&amp;cmn=e6a65b"></script>
+  <p class="visitor-map-caption">Approximate visitor locations based on IP addresses.</p>
+</div>
