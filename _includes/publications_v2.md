@@ -70,7 +70,7 @@
 
   /* 左侧栏布局 */
   .pub-badge-col {
-    flex: 0 0 105px; 
+    flex: 0 0 120px;
     display: flex;
     justify-content: flex-start;
     padding-top: 4px;
@@ -80,7 +80,9 @@
   .pub-ccf-badge {
     background-color: #a34141; 
     color: #fff;
-    width: 90px;
+    box-sizing: border-box;
+    width: 110px;
+    white-space: nowrap;
     padding: 5px 0px; 
     border-radius: 6px; 
     font-weight: 800;
@@ -94,6 +96,7 @@
 
   .pub-content-col {
     flex: 1;
+    min-width: 0;
     padding-left: 10px;
   }
 
