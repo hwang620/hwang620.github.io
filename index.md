@@ -66,21 +66,6 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
 
 <h2 class="section-header">
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21409a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="10"></circle>
-    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
-  </svg>
-  Research Interests
-</h2>
-
-**My research goal is to make efficient and dependable computing accessible wherever it is needed, from AI infrastructure to resource-constrained devices.** I am interested in rethinking the interplay between computation, data movement, and communication through hardware-software co-design. My current interests span memory-centric architectures for large language model inference and low-power systems for the Internet of Things (IoT). In particular, my work on wireless systems explores new designs for LPWAN uplinks and ultra-low-power LoRa reception (see [Odin](#pub-odin) and [Sisyphus](#pub-sisyphus)). Beyond connectivity, I investigate how energy-constrained devices can compute reliably and securely, from hardware-based energy admission (see [Hades](#pub-hades)) to trustworthy operation in tiny IoT systems (see [PAuth](#pub-pauth)).
-
-Keywords related to my research include:
-
-- **AI Infrastructure:** LLM inference and serving, hardware-software co-design, 3D-stacked memory, near-memory computing, hybrid digital-analog computing
-- **Low-Power IoT:** LoRa, backscatter, battery-free devices, intermittent computing, wireless and RFIC
-
-<h2 class="section-header">
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21409a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"></path>
     <path d="M18 14h-8"></path>
     <path d="M15 18h-5"></path>
@@ -118,6 +103,21 @@ Keywords related to my research include:
     });
   })();
 </script>
+
+<h2 class="section-header">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21409a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"></circle>
+    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+  </svg>
+  Research Interests
+</h2>
+
+**My research goal is to make efficient and dependable computing accessible wherever it is needed, from AI infrastructure to resource-constrained devices.** I am interested in rethinking the interplay between computation, data movement, and communication through hardware-software co-design. My current interests span memory-centric architectures for large language model inference and low-power systems for the Internet of Things (IoT). In particular, my work on wireless systems explores new designs for LPWAN uplinks and ultra-low-power LoRa reception (see [Odin](#pub-odin) and [Sisyphus](#pub-sisyphus)). Beyond connectivity, I investigate how energy-constrained devices can compute reliably and securely, from hardware-based energy admission (see [Hades](#pub-hades)) to trustworthy operation in tiny IoT systems (see [PAuth](#pub-pauth)).
+
+**Research Keywords**
+
+- **AI Infrastructure:** LLM inference and serving, hardware-software co-design, 3D-stacked memory, near-memory computing, hybrid digital-analog computing
+- **Low-Power IoT:** LPWAN, LoRa, backscatter, battery-free devices, intermittent computing, trustworthy computing, wireless and RFIC
 
 {% include_relative _includes/honors.md %} 
 
