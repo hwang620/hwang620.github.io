@@ -194,6 +194,17 @@
   .pub-links a:hover {
     text-decoration: underline;
   }
+  /* Keep publication details readable on the dark background. */
+  @media (prefers-color-scheme: dark) {
+    .pub-title, .pub-title a { color: #e8edf5; }
+    .pub-title a:hover { color: #75c8f0; }
+    .pub-authors { color: #c6d1df; }
+    .pub-venue-full { color: #b5c5d8; }
+    .pub-links a { color: #75c8f0; }
+    .pub-keyword-badge { color: #c6d1df; }
+    .pub-award { color: #ff9999; }
+    .pub-award svg { stroke: #ff9999; }
+  }
 </style>
 
 <h2 id="publications" class="pub-header">
