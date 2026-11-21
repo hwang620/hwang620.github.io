@@ -593,13 +593,12 @@ footer {
   display:none;
   font-family: monospace;
 }
-.theme-toggle { position: absolute; top: 18px; right: 20px; z-index: 10; padding: 7px 12px; border: 1px solid #aab7c5; border-radius: 999px; background: #fff; color: #243b53; font: 600 13px Arial, sans-serif; cursor: pointer; }
-.theme-toggle:focus-visible { outline: 3px solid #3eb7f0; outline-offset: 3px; }
-html[data-theme="dark"] .theme-toggle {
+.theme-toggle {
   position: absolute;
   top: 18px;
   right: 20px;
   z-index: 10;
+  box-sizing: border-box;
   width: 42px;
   height: 23px;
   padding: 0;

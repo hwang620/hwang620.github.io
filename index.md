@@ -126,6 +126,6 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
 {% include_relative _includes/services.md %} 
 
 
-<div style="max-width: 240px; margin: 24px 0 24px auto;">
+<div style="max-width: 240px; margin: 24px auto; text-align: center;">
   <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=fbf7f3&amp;w=240&amp;t=tt&amp;d=dZDFRE7T3LbcM9LXXNLvSil6KjVs5AE_jr1S3WX-IXA&amp;co=131479&amp;cmo=980808&amp;cmn=047434"></script>
 </div>
