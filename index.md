@@ -136,6 +136,19 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
     background: #f8fafc;
     text-align: center;
   }
+  /* The map widget adds its own right margin and absolutely positioned image. */
+  .visitor-map-card > span {
+    position: relative;
+    display: block !important;
+    max-width: 100%;
+    margin: 0 auto !important;
+    overflow: hidden;
+    text-align: left;
+  }
+  .visitor-map-card > span > img {
+    top: 0;
+    left: 0;
+  }
   .visitor-map-card iframe,
   .visitor-map-card img {
     max-width: 100%;
@@ -162,7 +175,7 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
   Global Visitors Map
 </h2>
 <div class="visitor-map-card">
-  <script id="_wau___">var _wau = _wau || []; _wau.push(["map", "f9hrxdsxaa", "___", "360", "180", "night", "cross-pink"]);</script>
+  <script id="_wau___">var _wau = _wau || []; var mapWidth = Math.min(360, Math.max(1, document.currentScript.parentElement.clientWidth - 24)); _wau.push(["map", "f9hrxdsxaa", "___", String(mapWidth), String(Math.round(mapWidth / 2)), "night", "cross-pink"]);</script>
   <script async src="https://waust.at/m.js"></script>
   <p class="visitor-map-caption">Approximate visitor locations based on IP addresses.</p>
 </div>
