@@ -5,7 +5,7 @@
     font-weight: 600;
   }
 
-  @media (prefers-color-scheme: dark) {
+  html[data-theme="dark"] {
     h4.service-subheading { color: #c6d1df; }
   }
 </style>

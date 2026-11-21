@@ -15,7 +15,7 @@ layout: homepage
   }
 
   /* Follow the system theme while keeping the existing light palette. */
-  @media (prefers-color-scheme: dark) {
+  html[data-theme="dark"] {
     h2.section-header, h2.pub-header {
       color: #75c8f0;
     }

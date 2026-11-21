@@ -195,7 +195,7 @@
     text-decoration: underline;
   }
   /* Keep publication details readable on the dark background. */
-  @media (prefers-color-scheme: dark) {
+  html[data-theme="dark"] {
     .pub-title, .pub-title a { color: #e8edf5; }
     .pub-title a:hover { color: #75c8f0; }
     .pub-authors { color: #c6d1df; }

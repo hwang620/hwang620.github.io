@@ -14,7 +14,7 @@
   line-height:2.5rem;
   margin-right:1rem}
 
-@media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}
+html[data-theme="dark"] { .social-icons a {color: #3eb7f0 !important; }}
 
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
@@ -35,7 +35,7 @@
       }
      */
 
-@media (prefers-color-scheme: dark) {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#20212b;
+html[data-theme="dark"] {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#20212b;
     color:black;
     transform: scale(1.2)} 
     /*
@@ -158,7 +158,7 @@ papertitle {
     font-size: 100%;
   }
 
-@media (prefers-color-scheme: dark) {
+html[data-theme="dark"] {
     body {
         background-color: #20212b;
         color: #dadbdf;
@@ -245,7 +245,7 @@ h2 {
   font-size: 157%;
 }
 
-@media (prefers-color-scheme: dark) {
+html[data-theme="dark"] {
   h1, h3, h4, h5, h6 {
     color:rgb(62, 183, 240);
   }
@@ -276,7 +276,7 @@ a:hover {
   color:#069;
 }
 
-@media (prefers-color-scheme: dark) {
+html[data-theme="dark"] {
   a {
     color:rgb(62, 183, 240);
   }
@@ -339,7 +339,7 @@ th {
   color:#444;
 }
 
-@media (prefers-color-scheme: dark) {
+html[data-theme="dark"] {
   th {
     color:rgb(62, 183, 240);
   }
@@ -412,7 +412,7 @@ strong {
   font-weight:500;
 }
 
-@media (prefers-color-scheme: dark) {
+html[data-theme="dark"] {
   strong {
     color:#eeeff0;
   }
@@ -593,3 +593,6 @@ footer {
   display:none;
   font-family: monospace;
 }
+.theme-toggle { position: absolute; top: 18px; right: 20px; z-index: 10; padding: 7px 12px; border: 1px solid #aab7c5; border-radius: 999px; background: #fff; color: #243b53; font: 600 13px Arial, sans-serif; cursor: pointer; }
+.theme-toggle:focus-visible { outline: 3px solid #3eb7f0; outline-offset: 3px; }
+html[data-theme="dark"] .theme-toggle { background: #303645; border-color: #75869b; color: #e8edf5; }
