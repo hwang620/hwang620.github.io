@@ -14,6 +14,16 @@ layout: homepage
     color: #031b4e;
   }
 
+  /* Follow the system theme while keeping the existing light palette. */
+  @media (prefers-color-scheme: dark) {
+    h2.section-header, h2.pub-header {
+      color: #75c8f0;
+    }
+
+    h2.section-header svg, h2.pub-header svg {
+      stroke: #75c8f0;
+    }
+  }
   .news-list {
     margin-bottom: 8px;
   }
