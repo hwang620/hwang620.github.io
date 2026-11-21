@@ -72,9 +72,11 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
   Research Interests
 </h2>
 
-**My research goal is to build efficient and ubiquitous infrastructure for intelligent computing and connected devices.** I am interested in hardware-software co-design across AI systems and the Internet of Things (IoT), from accelerating large language model (LLM) inference and serving to enabling communication and computation under tight energy constraints.
+**My research aims to make computing and communication infrastructure efficient and dependable across scales, from AI systems to energy-constrained devices at the edge.** Across these settings, I am drawn to a common question: how can we rethink where and how computation happens to make better use of limited energy, bandwidth, and hardware resources? I pursue this question through hardware-software co-design, working across architectures, circuits, and systems.
 
-For AI infrastructure, I explore architectures and computing paradigms such as 3D-stacked memory, near-memory computing, and hybrid digital-analog computing to reduce data movement and improve hardware utilization. In low-power IoT, my work explores uplink design for ubiquitous LPWANs ([Odin](#pub-odin)), low-power LoRa reception ([Sisyphus](#pub-sisyphus)), hardware support for energy admission in intermittent computing ([Hades](#pub-hades)), and trustworthy computing for resource-constrained IoT devices ([PAuth](#pub-pauth)). I have also collaborated on device-agnostic power management for battery-free IoT ([μMan](#pub-uman)).
+In AI infrastructure, I explore ways to reduce the cost of data movement and improve hardware utilization for large language model inference and serving, with a particular interest in 3D-stacked memory, near-memory computing, and hybrid digital-analog computing. At the other end of the computing spectrum, my work on low-power wireless systems reexamines the cost of connectivity: [Sisyphus](#pub-sisyphus) redesigns LoRa reception for ultra-low-power, always-on operation, while [Odin](#pub-odin) explores a new design point for LPWAN uplinks.
+
+Connectivity is only part of the challenge: devices must also make progress and remain trustworthy when energy is scarce. To this end, [Hades](#pub-hades) moves energy admission into always-on hardware, allowing intermittent devices to decide when to execute without waking the processor. In complementary collaborative work, [μMan](#pub-uman) shifts power-management workloads to the gateway to conserve energy on battery-free devices. [PAuth](#pub-pauth) addresses another essential dimension of the problem: establishing trust in resource-constrained IoT systems.
 
 Keywords related to my research include:
 
