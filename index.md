@@ -125,13 +125,7 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
 
 {% include_relative _includes/services.md %} 
 
-<h2 class="section-header">
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#21409a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <circle cx="12" cy="12" r="10"></circle>
-    <path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"></path>
-  </svg>
-  Global Visitors Map
-</h2>
-<div style="max-width: 300px; margin: 0 0 24px auto;">
-  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=fbf7f3&amp;w=300&amp;t=tt&amp;d=dZDFRE7T3LbcM9LXXNLvSil6KjVs5AE_jr1S3WX-IXA&amp;co=131479&amp;cmo=980808&amp;cmn=047434"></script>
+
+<div style="max-width: 240px; margin: 24px 0 24px auto;">
+  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=fbf7f3&amp;w=240&amp;t=tt&amp;d=dZDFRE7T3LbcM9LXXNLvSil6KjVs5AE_jr1S3WX-IXA&amp;co=131479&amp;cmo=980808&amp;cmn=047434"></script>
 </div>
