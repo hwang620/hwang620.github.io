@@ -7,7 +7,6 @@
   function render(theme) {
     document.documentElement.dataset.theme = theme;
     var dark = theme === 'dark';
-    button.textContent = dark ? '☀ Light' : '☾ Dark';
     button.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
     button.setAttribute('aria-pressed', String(dark));
   }
