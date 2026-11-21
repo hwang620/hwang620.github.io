@@ -116,8 +116,8 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
 
 **Research Keywords**
 
-- **AI Infrastructure:** LLM inference and serving, hardware-software co-design, 3D-stacked memory, near-memory computing, hybrid digital-analog computing
-- **Low-Power IoT:** LPWAN, LoRa, backscatter, battery-free devices, intermittent computing, trustworthy computing, wireless and RFIC
+- **AI Infrastructure** *(current exploration)*: LLM inference and serving, hardware-software co-design, 3D-stacked memory, near-memory computing, hybrid digital-analog computing
+- **Low-Power IoT** *(past and ongoing research)*: LPWAN, LoRa, backscatter, battery-free devices, intermittent computing, trustworthy computing, wireless and RFIC
 
 {% include_relative _includes/honors.md %} 
 
