@@ -162,6 +162,7 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
   Global Visitors Map
 </h2>
 <div class="visitor-map-card">
-  <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=360&amp;t=tt&amp;d=tf6trRht7T5GWabkmifch2uaHHA47Ixj-cwebHXvmBk&amp;co=2b4c6f&amp;ct=ffffff&amp;cmo=3eb7f0&amp;cmn=e6a65b"></script>
+  <script id="_wau___">var _wau = _wau || []; _wau.push(["map", "f9hrxdsxaa", "___", "360", "180", "night", "cross-pink"]);</script>
+  <script async src="https://waust.at/m.js"></script>
   <p class="visitor-map-caption">Approximate visitor locations based on IP addresses.</p>
 </div>
