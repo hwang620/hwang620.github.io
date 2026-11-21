@@ -74,7 +74,7 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
 
 **My research goal is to build efficient and ubiquitous infrastructure for intelligent computing and connected devices.** I am interested in hardware-software co-design across AI systems and the Internet of Things (IoT), from accelerating large language model (LLM) inference and serving to enabling communication and computation under tight energy constraints.
 
-For AI infrastructure, I explore architectures and computing paradigms such as 3D-stacked memory, near-memory computing, and hybrid digital-analog computing to reduce data movement and improve hardware utilization. In low-power IoT, my work explores uplink design for ubiquitous LPWANs (Odin), low-power LoRa reception ([Sisyphus](./assets/files/Sisyphus_mobicom24.pdf)), hardware support for energy admission in intermittent computing ([Hades](./assets/files/Hades_micro26.pdf)), and trustworthy computing for resource-constrained IoT devices (PAuth). I have also collaborated on device-agnostic power management for battery-free IoT (μMan).
+For AI infrastructure, I explore architectures and computing paradigms such as 3D-stacked memory, near-memory computing, and hybrid digital-analog computing to reduce data movement and improve hardware utilization. In low-power IoT, my work explores uplink design for ubiquitous LPWANs ([Odin](#pub-odin)), low-power LoRa reception ([Sisyphus](#pub-sisyphus)), hardware support for energy admission in intermittent computing ([Hades](#pub-hades)), and trustworthy computing for resource-constrained IoT devices ([PAuth](#pub-pauth)). I have also collaborated on device-agnostic power management for battery-free IoT ([μMan](#pub-uman)).
 
 Keywords related to my research include:
 

@@ -226,7 +226,16 @@
 <div id="tab-selected" class="pub-tab-content active">
   <ul class="custom-bibliography">
     {% for link in site.data.publications_selected.main %}
-    <li class="pub-item">
+    {% assign paper_name = link.title | split: ':' | first %}
+    {% assign paper_id = '' %}
+    {% case paper_name %}
+      {% when 'Odin' %}{% assign paper_id = 'pub-odin' %}
+      {% when 'Hades' %}{% assign paper_id = 'pub-hades' %}
+      {% when 'Sisyphus' %}{% assign paper_id = 'pub-sisyphus' %}
+      {% when 'PAuth' %}{% assign paper_id = 'pub-pauth' %}
+      {% when 'μMan' %}{% assign paper_id = 'pub-uman' %}
+    {% endcase %}
+    <li class="pub-item"{% if paper_id != '' %} id="{{ paper_id }}"{% endif %}>
       <div class="pub-badge-col">
         {% if link.conference_short %}<div class="pub-ccf-badge">{{ link.conference_short }}</div>{% endif %}
       </div>
@@ -374,4 +383,20 @@ function switchPubTab(evt, tabId) {
   document.getElementById(tabId).classList.add("active");
   evt.currentTarget.className += " active";
 }
+(function () {
+  function showSelectedPaper(hash) {
+    if (!/^#pub-(odin|hades|sisyphus|pauth|uman)$/.test(hash)) return;
+    var button = document.querySelector('.pub-tab-btn');
+    switchPubTab({ currentTarget: button }, 'tab-selected');
+  }
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('a[href^="#pub-"]');
+    if (link) showSelectedPaper(link.getAttribute('href'));
+  });
+  if (location.hash) {
+    showSelectedPaper(location.hash);
+    var paper = document.getElementById(location.hash.slice(1));
+    if (paper) paper.scrollIntoView();
+  }
+})();
 </script>
