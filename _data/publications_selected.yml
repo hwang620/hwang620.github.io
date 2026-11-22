@@ -68,7 +68,7 @@ main:
 #     image: ./assets/img/teaser_example_2.png
       notes: CCF-B
       type: CONFERENCE
-      award: "Best Paper Award"  
+      award: "Best Paper Award (1/313)"  
       others: "ACM SIGMOBILE Research Highlight" 
 
 
