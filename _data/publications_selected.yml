@@ -1,15 +1,15 @@
 main:
-#     - title: "Odin: Hitting the Uplink Design Sweet Spot for Ubiquitous LPWANs"
-#       authors: <strong>Han Wang</strong>, Shuwei Wu, Chong Zhang, Songfan Li, Qianhe Meng, Yushun He, Jiyao Liu, Ruizhe Zhang, Yize Zhao, and Li Lu
-#       conference_short: MobiCom '27
-#       conference: The 33rd Annual International Conference on Mobile Computing and Networking
-#       year: 2027
-#       # pdf: ./assets/files/Sisyphus_mobicom24.pdf
-#       # slides: ./assets/files/Sisyphus_slides.pdf
-# #     bibtex: https://bib.yliu.me/MICCAI23.txt
-#     # image: ./assets/img/teaser_sisyphus.png
-#       notes: CCF-A
-#       type: CONFERENCE
+    - title: "Odin: Hitting the Uplink Design Sweet Spot for Ubiquitous LPWANs"
+      authors: <strong>Han Wang</strong>, Shuwei Wu, Chong Zhang, Songfan Li, Qianhe Meng, Yushun He, Jiyao Liu, Ruizhe Zhang, Yize Zhao, and Li Lu
+      conference_short: MobiCom '27
+      conference: The 33rd Annual International Conference on Mobile Computing and Networking
+      year: 2027
+      # pdf: ./assets/files/Sisyphus_mobicom24.pdf
+      # slides: ./assets/files/Sisyphus_slides.pdf
+#     bibtex: https://bib.yliu.me/MICCAI23.txt
+    # image: ./assets/img/teaser_sisyphus.png
+      notes: CCF-A
+      type: CONFERENCE
     
     - title: "Hades: A Hardware-Resident Substrate for Energy Admission in Intermittent Computing"
       authors: <strong>Han Wang</strong>, Chong Zhang, Qianhe Meng, Yize Zhao, Ruizhe Zhang, and Li Lu
