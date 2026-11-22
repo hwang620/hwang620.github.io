@@ -74,7 +74,7 @@ Welcome! I am **<font face="Georgia">Han Wang</font>**, a third-year Ph.D. stude
   News
 </h2>
 <ul id="news-list" class="news-list">
-  <li><strong><font color="3A5FCD" face="Georgia">[Nov. 2026]</font></strong> Our paper <strong><em>'Odin'</em></strong> on a distinct design point for uplink communication in LPWANs has been accepted to <strong>MobiCom '27</strong>.</li>
+  <!-- <li><strong><font color="3A5FCD" face="Georgia">[Nov. 2026]</font></strong> Our paper <strong><em>'Odin'</em></strong> on a distinct design point for uplink communication in LPWANs has been accepted to <strong>MobiCom '27</strong>.</li> -->
   <li><strong><font color="3A5FCD" face="Georgia">[Oct. 2026]</font></strong> Selected for <strong>CAST Young Science and Technology Talent Cultivation Program - Doctoral Student Special Plan</strong> (中国科协青年科技人才培育工程博士生专项计划) !</li>
   <li><strong><font color="3A5FCD" face="Georgia">[Jul. 2026]</font></strong> Our paper <strong><em>'Hades'</em></strong> on runtime-free energy admission has been accepted to <strong>MICRO '26</strong>.</li>
   <li><strong><font color="3A5FCD" face="Georgia">[Oct. 2025]</font></strong> Our paper <strong><em>'μMan'</em></strong> on device-agnostic energy management for battery-free IoT has been accepted to <strong>SenSys '26</strong>.</li>
