@@ -43,6 +43,22 @@
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
 
+    <style>
+      header .image.avatar { border-radius: 0; }
+      header .image.avatar img {
+        display: block;
+        width: 175px;
+        height: 175px;
+        max-width: 100%;
+        padding: 0;
+        border-radius: 0;
+        object-fit: cover;
+        object-position: center;
+      }
+      @media screen and (max-width: 480px) {
+        header .image.avatar img { width: 140px; height: 140px; }
+      }
+    </style>
   </head>
   <body>
     <button class="theme-toggle" type="button" aria-label="Switch color theme" aria-pressed="false"></button>
